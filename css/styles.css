@@ -11659,7 +11659,8 @@ body {
 }
 
 .contact-section {
-  padding-top: 5rem;
+  border-top: 2px solid #fff ;
+  border-bottom: 2px solid #fff ;
 }
 .contact-section .card {
   border: 0;
