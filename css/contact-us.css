@@ -3,28 +3,43 @@
 body {
   overflow-x: hidden !important;
 }
-.ring{
-    position: absolute;
-    height: 18%;
-    top: 213rem;
-    left: 49.4rem;
+
+section#contact > div.container-fluid {
+  overflow-y: hidden;
 }
+
 .contact-section div.row h1.scroll-text {
-  font-size: 13rem;
+  position: relative;
+  left: 100%;
+  margin-left: 1rem;
+  font-size: 16rem;
   font-family: "Aquire", sans-serif;
   white-space: nowrap;
-  position: relative;
-  left: 223rem;
-
-  -webkit-text-stroke: 3px white;
+  -webkit-text-stroke: 3px rgb(255, 255, 255);
   -webkit-text-fill-color: transparent;
 }
+
+#scrollDiv{
+  position: relative; 
+  overflow-x: hidden;
+}
 .bg-contact {
+  /* container-type: line-size; */
   background-image: url("../assets/img/contact.png");
   background-size: cover;
-  height: 70vh;
+  /* height: 70vh; */
   background-position-y: -11rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 }
+
+@media screen and (max-width: 576px) {
+  .contact-section div.row h1.scroll-text {
+    font-size: 8rem;
+  }
+}
+  
 
 /* cards */
 /* ==========================================
@@ -50,7 +65,7 @@ body {
   transition: all 0.4s;
 }
 
-.hover img {
+.hover > img {
   width: 100%;
   position: absolute;
   top: 0;
@@ -63,7 +78,7 @@ body {
   z-index: 99;
 }
 
-.hover-4 img {
+.hover-4 > img {
   width: 90%;
   top: 60%;
   left: 50%;
@@ -110,7 +125,7 @@ body {
   }
 }
 
-.hover-4:hover img {
+.hover-4:hover > img {
   width: 100%;
 }
 
@@ -133,8 +148,8 @@ body {
 
 .cards-hover {
   position: absolute;
-  top: 4rem !important;
-  left: 24rem !important;
+  top: 1rem !important;
+  right: 1rem !important;
   opacity: 0;
   width: 20% !important;
   z-index: 99;
