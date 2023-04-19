@@ -1,0 +1,20 @@
+.topic {
+  /* font-size: 13rem; */
+  font-family: "Aquire", sans-serif;
+  white-space: nowrap;
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+}
+.p1 {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.pic{
+  width: 90%;
+
+  object-fit: cover;
+  object-position: center;
+}
+
