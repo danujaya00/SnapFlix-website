@@ -8,6 +8,15 @@
   ) !important;
 }
 
+@media screen and (max-width: 768px) {
+  .head-hero {
+    font-size: 2rem !important;
+  -webkit-text-stroke: 1px rgb(255, 255, 255) !important;
+
+  }
+  
+}
+
 #parallax {
   position: relative;
   width: 100%;
