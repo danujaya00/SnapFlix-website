@@ -1,0 +1,44 @@
+.countDown h1 {
+    transition: all .2s ease-in-out;
+  }
+  
+  .light-theme {
+    background-color: #151515;
+  }
+  
+  .light-theme .countDown h1 {
+    color: #FFFFFF;
+  }
+  
+  .countDown {
+    font-family: 'Roboto', sans-serif;
+    width: 550px;
+    height: 378px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .countDown .flipdown {
+    margin: auto;
+  }
+  
+  .countDown h1 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  @media(max-width: 550px) {
+    .countDown {
+      width: 100%;
+      height: 362px;
+    }
+  
+    .countDown h1 {
+      font-size: 2.5em;
+    }
+  }
+  
