@@ -71,11 +71,11 @@
       >
         <div class="d-flex justify-content-center">
           <div class="text-center">
-            <h1 class="mx-auto my-0 head-hero">Snap<span class="text-uppercase">Flix</span></h1>
-            <h2 class="text-white-50 mx-auto mt-2 mb-5">
+            <h1 class="mx-auto my-0 head-hero" data-aos="fade-up">Snap<span class="text-uppercase">Flix</span></h1>
+            <h2 class="text-white-50 mx-auto mt-2 mb-5" data-aos="fade-up" data-aos-delay="500">
               Sri lanka's First-Ever Short film Hackathon, that creates a platform to guide and encourage SriLankan youth to participate in international competitions and make our country shine on a global stage.
             </h2>
-            <a class="btn btn-primary" href="#about">Start Snapping</a>
+            <a class="btn btn-outline-light btn-hero" href="#about" data-aos="fade-down" data-aos-delay="1000">Start Snapping</a>
           </div>
         </div>
       </div>
@@ -483,27 +483,7 @@
     <script src="./js/gsap/gsap.min.js"></script>
     <script src="./js/gsap/ScrollTrigger.min.js"></script>
     <script src="./js/contact-card.js"></script>
-    <script>
-      (function() {
-    // Add event listener
-    document.addEventListener("mousemove", parallax);
-    const elem = document.querySelector("#parallax");
-    // Magic happens here
-    function parallax(e) {
-        let _w = window.innerWidth/2;
-        let _h = window.innerHeight/2;
-        let _mouseX = e.clientX;
-        let _mouseY = e.clientY;
-        let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.01}%`;
-        let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${50 - (_mouseY - _h) * 0.02}%`;
-        let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${50 - (_mouseY - _h) * 0.06}%`;
-        let x = `${_depth3}, ${_depth2}, ${_depth1}`;
-        console.log(x);
-        elem.style.backgroundPosition = x;
-    }
-
-})();
-    </script>
+    <script src="./js/hero.js"></script>
     <script>
       AOS.init();
     </script>
