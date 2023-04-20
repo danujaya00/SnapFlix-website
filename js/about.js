@@ -8,11 +8,10 @@ var Messenger = function(el){
       m.current_length = 0;
       m.fadeBuffer = false;
       m.messages = [
-        'where you will have to create an amazing short film within the given time frame,',
-        'that creates a platform for aspiring video makers, filmmakers, and enthusiasts ',
-        'to showcase their skills and to guide ',
-        'and encourage Sri Lankan youth to participate in international competitions',
-        'and make our country shine on a global stage '
+        'where you will have to create an amazing short film within the given time frame, that creates a platform for aspiring video makers, filmmakers, and enthusiasts to showcase their skills and to guide and encourage Sri Lankan youth to participate in international competitions and make our country shine on a global stage.',
+        ' Get ready to be a part of the most exciting and challenging competition in Sri Lanka. ',
+        ' Keep Your Gear Ready! ',
+        
       ];
       
       
