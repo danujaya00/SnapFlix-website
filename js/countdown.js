@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
     var flipdown = new FlipDown(twoDaysFromNow)
   
       // Start the countdown
-      .start()
+      flipdown.start()
   
       // Do something when the countdown ends
-      .ifEnded(() => {
+      flipdown.ifEnded(() => {
         console.log('The countdown has ended!');
       });
   

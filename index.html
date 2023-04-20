@@ -28,6 +28,7 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/hero.css" rel="stylesheet" />
+    <link href="css/flipdown.css" rel="stylesheet" />
     <link href="css/count-down.css" rel="stylesheet" />
     <link href="css/contact-us.css" rel="stylesheet" />
     <link href="css/about.css" rel="stylesheet" />
@@ -85,29 +86,38 @@
     </header>
 
     <!-- About -->
-    <script src="https://cdn.jsdelivr.net/npm/parallax-mouse@1.0.1/dist/parallax-mouse.min.js"></script>
-    <section class="about-section h-100 text-center pt-0" style="height: 60%;" id="about" >
-     <div class="h-100 d-inline-block">
-      <div class="container px-4 px-lg-5">
-        <div class="row h-75 gx-4 gx-lg-5 justify-content-center">
-          <h1 class="topic" data-aos="fade-up" data-aos-delay="700">
-            What is SnapFlix? <br />
-          </h1>
-          <p class="mb-0 " data-aos="fade-in" data-aos-delay="800" >
-            <span style="font-weight: bold; font-size: x-large" class="mb-0">
-              Sri lanka's First-Ever Short film Hackathon <br>
-              <div style="font-weight: bold; color: white; font-size: x-large; margin-top: 0px;" id="messenger"></div>
-          </p>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/parallax-mouse@1.0.1/dist/parallax-mouse.min.js"></script> -->
+    <section class="about-section h-100 text-center pt-0 vh-100" id="about" >
+     <!-- <div class="h-100 d-inline-block"> -->
+      <div class="container px-4 px-lg-5 vh-100 d-flex justify-content-center align-items-center">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-sm-12">
+            <h1 class="topic" data-aos="fade-up" data-aos-delay="700">
+              What is SnapFlix? <br />
+            </h1>
+            <p class="mb-0 " data-aos="fade-in" data-aos-delay="800" >
+              <span style="font-weight: bold; font-size: x-large" class="mb-0">
+                Sri lanka's First-Ever Short film Hackathon <br>
+                <div style="font-weight: bold; color: white; font-size: x-large; margin-top: 0px;" id="messenger"></div>
+            </p>
+          </div>
           
         </div>
       </div>
-    </div> 
+    <!-- </div>  -->
     </section>
         <!-- Count Down-->
         <section id="count-down">    
-            <div class="countDown">
-                <h1>Registration Begins in</h1>
-                <div id="flipdown" class="flipdown"></div>
+            <div class="container-fluid vh-100 d-flex justify-content-center align-items-center">
+              <div class="row-fluid">
+                <div class="col-12 mh-100">
+                  <div class="countDown">
+                    <h1>Registration Begins in</h1>
+                    <div id="flipdown" class="flipdown">
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>  
         </section>
         
@@ -396,7 +406,7 @@
     <!-- Footer-->
     <footer class="footer bg-black small text-center text-white-50">
       <div class="container px-4 px-lg-5">
-        Copyright &copy; Your Website 2022
+        Copyright &copy; SnapFilx 2023
       </div>
     </footer>
     <!-- Bootstrap core JS-->
@@ -409,14 +419,12 @@
     <!-- Core theme JS-->
     <script src="./js/scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/parallax-mouse@1.0.1/dist/parallax-mouse.min.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/gsap/gsap.min.js"></script>
     <script src="./js/gsap/ScrollTrigger.min.js"></script>
+    <script src="./js/flipdown.js"></script>
+    <script src="./js/countdown.js"></script>
     <script src="./js/contact-card.js"></script>
     <script src="./js/hero.js"></script>
     <script src="./js/about.js"></script>

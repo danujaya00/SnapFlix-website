@@ -1,7 +1,7 @@
 .topic {
   /* font-size: 13rem; */
   font-family: "Aquire", sans-serif;
-  white-space: nowrap;
+  white-space: wrap;
   font-size: 4rem;
   color: white;
   text-align: center;
