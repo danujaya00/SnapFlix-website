@@ -84,6 +84,8 @@ section#contact > div.container-fluid {
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
+  filter: gray;
+  -webkit-filter: grayscale(1);
 }
 
 .hover-4 .hover-overlay {
@@ -128,6 +130,7 @@ section#contact > div.container-fluid {
 
 .hover-4:hover > img {
   width: 100%;
+  -webkit-filter: grayscale(0);
 }
 
 .hover-4:hover::after {
