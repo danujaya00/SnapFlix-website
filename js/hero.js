@@ -30,7 +30,7 @@ var messenger1 = function(el){
   var m = this;
   
   m.init = function(){
-    m.codeletters = "as dfg hj";
+    m.codeletters = "as dfg hj jalfa";
     m.message = 0;
     m.current_length = 0;
     m.fadeBuffer = false;

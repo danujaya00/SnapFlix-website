@@ -2,7 +2,7 @@
   /* font-size: 13rem; */
   font-family: "Aquire", sans-serif;
   white-space: wrap;
-  font-size: 6rem;
+  font-size: 60px;
   color: white;
   text-align: center;
 }
@@ -29,6 +29,7 @@ video{
   height: 100%;
   position: absolute;
   z-index: 1;
+  
   
 }
 .overlay{
