@@ -7,7 +7,7 @@
   }
   
   .light-theme .countDown h1 {
-    color: #FFFFFF;
+    color: #ffffff;
   }
   
   .countDown {
@@ -42,3 +42,8 @@
     }
   }
   
+  .countDown{
+    align-items: center;
+    justify-content: center;
+   
+  }
