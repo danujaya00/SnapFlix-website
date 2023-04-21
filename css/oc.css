@@ -1,0 +1,833 @@
+@font-face {
+  font-family: 'Archivo Black';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/archivoblack/v17/HTxqL289NzCGg4MzN6KJ7eW6CYyF-w.ttf) format('truetype');
+}
+
+.oc-heading{
+  font-size: 6rem !important;
+}
+.cards-wrapper {
+  position: relative;
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-wrapper {
+  display: block;
+  float: left;
+  position: relative;
+  margin: 0;
+  width: -webkit-fill-available;
+  height: 15rem;
+  padding: 0 0 28%;
+  perspective: 700px;
+}
+.card-object {
+  color: #FFF;
+  display: block;
+  float: left;
+  position: absolute;
+  top: 6%;
+  left: 6%;
+  width: 88%;
+  height: 88%;
+  transform-style: preserve-3d;
+}
+
+
+.card-object.card-1 .front.aj{
+  background: #222 url(../assets/img/oc/abdullah.jpeg) 90% 35%;
+  background-size: 115%;
+  filter: grayscale(1);
+}
+.card-object.card-1 .back .img-wrapper.aj{
+  background: transparent url(../assets/img/oc/abdullah.jpeg) 70% 45%;
+  background-size: cover;
+}
+.card-object.card-1 .back .avatar.aj{
+  background: transparent url(../assets/img/oc/abdullah.jpeg) 40% 20%;
+  background-size: cover;
+}
+.card-object.card-2 .front.shawn {
+  background: #222 url(../assets/img/oc/shawn.jpeg) 50% 90% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-2 .back .img-wrapper.shawn {
+  background: transparent url(../assets/img/oc/shawn.jpeg) 110% 60%;
+  background-size: cover;
+}
+.card-object.card-2 .back .avatar.shawn {
+  background: transparent url(../assets/img/oc/shawn.jpeg) 50% 50% no-repeat;
+  background-size: cover;
+}
+.card-object.card-3 .front.vinupa {
+  background: #222 url(../assets/img/oc/vinupa.jpeg) 80% 100% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-3 .back .img-wrapper.vinupa {
+  background: transparent url(../assets/img/oc/vinupa.jpeg) 90% 40% no-repeat;
+  background-size: cover;
+}
+.card-object.card-3 .back .avatar.vinupa{
+  background: #fff url(../assets/img/oc/vinupa.jpeg) 0 50% no-repeat;
+  background-size: cover;
+}
+
+
+.card-object.card-3 .front.dewmini {
+  background: #222 url(../assets/img/dewmini.jfif) 80% 100% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-3 .back .img-wrapper.dewmini {
+  background: transparent url(../assets/img/dewmini.jfif) 90% 55% no-repeat;
+  background-size: cover;
+}
+.card-object.card-3 .back .avatar.dewmini{
+  background: #fff url(../assets/img/dewmini.jfif) 0 50% no-repeat;
+  background-size: cover;
+}
+
+
+
+/* finance */
+
+.card-object.card-1 .front.janudi{
+  background: #222 url(../assets/img/oc/janudi.jpg) 90% 25%;
+  background-size: 115%;
+  filter: grayscale(1);
+}
+.card-object.card-1 .back .img-wrapper.janudi{
+  background: transparent url(../assets/img/oc/janudi.jpg) 70% 65%;
+  background-size: cover;
+}
+.card-object.card-1 .back .avatar.janudi{
+  background: transparent url(../assets/img/oc/janudi.jpg) 40% 20%;
+  background-size: cover;
+}
+
+
+.card-object.card-2 .front.wikum {
+  background: #222 url(../assets/img/OC/wikum.jpg) 50% 90% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-2 .back .img-wrapper.wikum {
+  background: transparent url(../assets/img/OC/wikum.jpg) 110% 20%;
+  background-size: cover;
+}
+.card-object.card-2 .back .avatar.wikum {
+  background: transparent url(../assets/img/OC/wikum.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+
+.card-object.card-3 .front.pramith {
+  background: #222 url(../assets/img/oc/pramith.jpg) 80% 100% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-3 .back .img-wrapper.pramith {
+  background: transparent url(../assets/img/oc/pramith.jpg) 90% 20% no-repeat;
+  background-size: cover;
+}
+.card-object.card-3 .back .avatar.pramith{
+  background: #fff url(../assets/img/oc/pramith.jpg) 0 50% no-repeat;
+  background-size: cover;
+}
+
+
+.card-object.card-3 .front.liviru {
+  background: #222 url(../assets/img/oc/liviru.jpg) 80% 100% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-3 .back .img-wrapper.liviru {
+  background: transparent url(../assets/img/oc/liviru.jpg) 90% 40% no-repeat;
+  background-size: cover;
+}
+.card-object.card-3 .back .avatar.liviru{
+  background: #fff url(../assets/img/oc/liviru.jpg) 0 50% no-repeat;
+  background-size: cover;
+}
+
+
+
+
+/* Project */
+
+.card-object.card-1 .front.sathira{
+  background: #222 url(../assets/img/oc/sathira.jpg) 90% 35%;
+  background-size: 115%;
+  filter: grayscale(1);
+}
+.card-object.card-1 .back .img-wrapper.sathira{
+  background: transparent url(../assets/img/oc/sathira.jpg) 70% 20%;
+  background-size: cover;
+}
+.card-object.card-1 .back .avatar.sathira{
+  background: transparent url(../assets/img/oc/sathira.jpg) 40% 20%;
+  background-size: cover;
+}
+
+
+.card-object.card-2 .front.tharushi {
+  background: #222 url(../assets/img/OC/tharushi.jpg) 50% 90% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-2 .back .img-wrapper.tharushi {
+  background: transparent url(../assets/img/OC/tharushi.jpg) 110% 20%;
+  background-size: cover;
+}
+.card-object.card-2 .back .avatar.tharushi {
+  background: transparent url(../assets/img/OC/tharushi.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+
+.card-object.card-3 .front.samindu {
+  background: #222 url(../assets/img/oc/samindu.JPEG) 80% 30% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-3 .back .img-wrapper.samindu {
+  background: transparent url(../assets/img/oc/samindu.JPEG) 90% 20% no-repeat;
+  background-size: cover;
+}
+.card-object.card-3 .back .avatar.samindu{
+  background: #fff url(../assets/img/oc/samindu.JPEG) 0 50% no-repeat;
+  background-size: cover;
+}
+
+
+.card-object.card-3 .front.himasha {
+  background: #222 url(../assets/img/oc/himasha.jpg) 80% 100% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-3 .back .img-wrapper.himasha {
+  background: transparent url(../assets/img/oc/himasha.jpg) 90% 40% no-repeat;
+  background-size: cover;
+}
+.card-object.card-3 .back .avatar.himasha{
+  background: #fff url(../assets/img/oc/himasha.jpg) 0 50% no-repeat;
+  background-size: cover;
+}
+
+
+
+/* desig and content */
+
+.card-object.card-1 .front.achchu{
+  background: #222 url(../assets/img/oc/achchu.jpg) 90% 35%;
+  background-size: 115%;
+  filter: grayscale(1);
+}
+.card-object.card-1 .back .img-wrapper.achchu{
+  background: transparent url(../assets/img/oc/achchu.jpg) 70% 15%;
+  background-size: cover;
+}
+.card-object.card-1 .back .avatar.achchu{
+  background: transparent url(../assets/img/oc/achchu.jpg) 40% 20%;
+  background-size: cover;
+}
+
+
+.card-object.card-2 .front.zahara {
+  background: #222 url(../assets/img/OC/zahara.jpg) 50% 90% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-2 .back .img-wrapper.zahara {
+  background: transparent url(../assets/img/OC/zahara.jpg) 110% 20%;
+  background-size: cover;
+}
+.card-object.card-2 .back .avatar.zahara {
+  background: transparent url(../assets/img/OC/zahara.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.card-object.card-2 .front.pabasara {
+  background: #222 url(../assets/img/OC/pabasara.jpeg) 50% 90% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-2 .back .img-wrapper.pabasara {
+  background: transparent url(../assets/img/OC/pabasara.jpeg) 110% 20%;
+  background-size: cover;
+}
+.card-object.card-2 .back .avatar.pabasara {
+  background: transparent url(../assets/img/OC/pabasara.jpeg) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+
+.card-object.card-3 .front.waruna {
+  background: #222 url(../assets/img/oc/waruna.png) 80% 100% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-3 .back .img-wrapper.waruna {
+  background: transparent url(../assets/img/oc/waruna.png) 90% 20% no-repeat;
+  background-size: cover;
+}
+.card-object.card-3 .back .avatar.waruna{
+  background: #fff url(../assets/img/oc/waruna.png) 0 50% no-repeat;
+  background-size: cover;
+}
+
+
+.card-object.card-3 .front.nisura {
+  background: #222 url(../assets/img/oc/nisura.jpg) 80% 100% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-3 .back .img-wrapper.nisura {
+  background: transparent url(../assets/img/oc/nisura.jpg) 90% 40% no-repeat;
+  background-size: cover;
+}
+.card-object.card-3 .back .avatar.nisura{
+  background: #fff url(../assets/img/oc/nisura.jpg) 0 50% no-repeat;
+  background-size: cover;
+}
+
+
+
+/* design and web */
+
+.card-object.card-1 .front.vimukthi{
+  background: #222 url(../assets/img/oc/vimukthi.jpg) 90% 55%;
+  background-size: 115%;
+  filter: grayscale(1);
+}
+.card-object.card-1 .back .img-wrapper.vimukthi{
+  background: transparent url(../assets/img/oc/vimukthi.jpg) 70% 15%;
+  background-size: cover;
+}
+.card-object.card-1 .back .avatar.vimukthi{
+  background: transparent url(../assets/img/oc/vimukthi.jpg) 40% 20%;
+  background-size: cover;
+}
+
+
+.card-object.card-2 .front.ravien {
+  background: #222 url(../assets/img/OC/ravien.jpg) 50% 90% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-2 .back .img-wrapper.ravien {
+  background: transparent url(../assets/img/OC/ravien.jpg) 110% 20%;
+  background-size: cover;
+}
+.card-object.card-2 .back .avatar.ravien {
+  background: transparent url(../assets/img/OC/ravien.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+
+.card-object.card-3 .front.kushantha {
+  background: #222 url(../assets/img/oc/kushantha.jpg) 80% 100% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-3 .back .img-wrapper.kushantha {
+  background: transparent url(../assets/img/oc/kushantha.jpg) 90% 40% no-repeat;
+  background-size: cover;
+}
+.card-object.card-3 .back .avatar.kushantha{
+  background: #fff url(../assets/img/oc/kushantha.jpg) 0 50% no-repeat;
+  background-size: cover;
+}
+
+
+.card-object.card-3 .front.danujaya {
+  background: #222 url(../assets/img/oc/danujaya.jpg) 80% 100% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-3 .back .img-wrapper.danujaya {
+  background: transparent url(../assets/img/oc/danujaya.jpg) 90% 40% no-repeat;
+  background-size: cover;
+}
+.card-object.card-3 .back .avatar.danujaya{
+  background: #fff url(../assets/img/oc/danujaya.jpg) 0 50% no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+/* Marketing */
+
+.card-object.card-1 .front.venuri{
+  background: #222 url(../assets/img/OC/venuri.jpg) 90% 35%;
+  background-size: 115%;
+  filter: grayscale(1);
+}
+.card-object.card-1 .back .img-wrapper.venuri{
+  background: transparent url(../assets/img/OC/venuri.jpg) 70% 15%;
+  background-size: cover;
+}
+.card-object.card-1 .back .avatar.venuri{
+  background: transparent url(../assets/img/OC/venuri.jpg) 40% 20%;
+  background-size: cover;
+}
+
+
+.card-object.card-2 .front.dilan {
+  background: #222 url(../assets/img/OC/dilan.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-2 .back .img-wrapper.dilan {
+  background: transparent url(../assets/img/OC/dilan.jpg) 110% 20%;
+  background-size: cover;
+}
+.card-object.card-2 .back .avatar.dilan {
+  background: transparent url(../assets/img/OC/dilan.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+
+.card-object.card-3 .front.jasitharan {
+  background: #222 url(../assets/img/OC/jasitharan.jpg) 80% 100% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-3 .back .img-wrapper.jasitharan {
+  background: transparent url(../assets/img/OC/jasitharan.jpg) 90% 20% no-repeat;
+  background-size: cover;
+}
+.card-object.card-3 .back .avatar.jasitharan{
+  background: #fff url(../assets/img/OC/jasitharan.jpg) 0 50% no-repeat;
+  background-size: cover;
+}
+
+
+.card-object.card-3 .front.kaveesha {
+  background: #222 url(../assets/img/oc/kaveesha.jpg) 80% 100% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-3 .back .img-wrapper.kaveesha {
+  background: transparent url(../assets/img/oc/kaveesha.jpg) 90% 20% no-repeat;
+  background-size: cover;
+}
+.card-object.card-3 .back .avatar.kaveesha{
+  background: #fff url(../assets/img/oc/kaveesha.jpg) 0 50% no-repeat;
+  background-size: cover;
+}
+
+
+/* Logistic */
+
+.card-object.card-1 .front.moushika{
+  background: #222 url(../assets/img/OC/moushika.jpg) 90% 35%;
+  background-size: 115%;
+  filter: grayscale(1);
+}
+.card-object.card-1 .back .img-wrapper.moushika{
+  background: transparent url(../assets/img/OC/moushika.jpg) 60% 25%;
+  background-size: cover;
+}
+.card-object.card-1 .back .avatar.moushika{
+  background: transparent url(../assets/img/OC/moushika.jpg) 40% 20%;
+  background-size: cover;
+}
+
+
+.card-object.card-2 .front.siluni {
+  background: #222 url(../assets/img/OC/siluni.jpg) 50% 90% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-2 .back .img-wrapper.siluni {
+  background: transparent url(../assets/img/OC/siluni.jpg) 110% 8%;
+  background-size: cover;
+}
+.card-object.card-2 .back .avatar.siluni {
+  background: transparent url(../assets/img/OC/siluni.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+
+.card-object.card-3 .front.nisal {
+  background: #222 url(../assets/img/OC/nisal.jpg) 80% 0% no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+
+}
+.card-object.card-3 .back .img-wrapper.nisal {
+  background: transparent url(../assets/img/OC/nisal.jpg) 90% 0% no-repeat;
+  background-size: cover;
+}
+.card-object.card-3 .back .avatar.nisal{
+  background: #fff url(../assets/img/OC/nisal.jpg) 0 0% no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+.card-object.flip-in.card-1,
+.card-object.flip-in.card-3 {
+  -webkit-animation: flip-2-hor-top-fwd 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
+          animation: flip-2-hor-top-fwd 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
+}
+.card-object.flip-in.card-2{
+  -webkit-animation: flip-2-hor-bottom-fwd 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
+          animation: flip-2-hor-bottom-fwd 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
+}
+.card-object.flip-out.card-1,
+.card-object.flip-out.card-3 {
+  animation: flip-2-hor-top-fwd 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) reverse both;
+}
+.card-object.flip-out.card-2{
+  animation: flip-2-hor-bottom-fwd 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) reverse both;
+}
+.card-object-hf .back {
+  transform: rotateX(180deg);
+}
+.face {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.face.front {
+  z-index: 20;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.face.front::before {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  bottom: -1px;
+  left: -1px;
+  content: "";
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
+  opacity: 0.7;
+  z-index: 20;
+  transition: opacity 0.2s ease;
+}
+.face.front::after {
+  position: absolute;
+  top: 7%;
+  right: 7%;
+  bottom: 7%;
+  left: 7%;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  z-index: 100;
+  content: "";
+}
+.face.front .title-wrapper {
+  color: #FFF !important;
+  position: absolute;
+  bottom: 3%;
+  left: 15%;
+  right: 15%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  z-index: 100;
+  transform: translateY(0);
+  transition: transform 0.28s ease;
+}
+.face.front .title-wrapper .title {
+  position: relative;
+  font-family: 'Archivo Black', sans-serif;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+.face.front .title-wrapper .title::after {
+  display: block;
+  margin: 7% auto 8% auto;
+  width: 100%;
+  height: 1px;
+  content: "";
+  background-color: #fff;
+  opacity: 0.5;
+  transform: scale(0);
+  transition: transform 0.15s;
+}
+.face.front .title-wrapper .subtitle {
+  font-size: 0.9vw;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+
+.face.front:hover::before {
+  opacity: 0.9;
+}
+.face.front:hover .title-wrapper {
+  transform: translateY(-50%);
+}
+.face.front:hover .title-wrapper .title {
+  opacity: 1;
+}
+.face.front:hover .title-wrapper .title::after {
+  transform: scale(1);
+  opacity: 0.5;
+  transition-delay: 0.15s;
+  transition-duration: 0.2s;
+}
+.face.front:hover .title-wrapper .subtitle {
+  opacity: 0.7;
+  transition-delay: 0.2s;
+  transition-duration: 0.2s;
+}
+.face.back {
+  color: #222;
+  background: #fff;
+  z-index: 10;
+}
+.info-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  top: 6%;
+  right: 6%;
+  bottom: 6%;
+  left: 6%;
+  padding: 0;
+}
+.img-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 38%;
+  z-index: 10;
+}
+.img-wrapper::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(14, 6, 70, 0.6);
+  opacity: 0.7;
+}
+.avatar {
+  position: absolute;
+  left: 50%;
+  height: 68%;
+  width: 25.84%;
+  display: block;
+  border-radius: 50%;
+  margin-top: 25.08%;
+  margin-left: -12.92%;
+  background-color: #fff;
+  border: 3px solid #FFF;
+  z-index: 20;
+}
+.info-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 50.92%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0% 5% 10%;
+}
+.info-title {
+  font-size: 0.7rem;
+  font-family: 'Archivo Black', sans-serif;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+.info-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5% 0 0;
+  margin: 0;
+  border-top: 1px solid #e0e0e0;
+}
+.info-content-item {
+  color: #222;
+  font-size: 0.75vw;
+  line-height: 1;
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  color: #aaa;
+}
+.info-content-item span {
+  display: block;
+  font-weight: bold;
+  font-size: 1.1vw;
+  margin-top: 7px;
+  text-transform: none;
+  color: #222;
+}
+.info {
+  position: absolute;
+  bottom: 30px;
+  left: 5%;
+  right: 5%;
+  font-size: 1em;
+  text-align: center;
+}
+.info a {
+  color: #8c0f8c;
+  text-decoration: none;
+}
+.info a:hover {
+  text-decoration: underline;
+}
+
+
+/* media queries */
+@media screen and (max-width: 540px) {
+  .card-wrapper{
+    height: 25rem;
+  }
+  .face.front .title-wrapper .title {
+    font-size: 8.5vw;
+  }
+  .face.front .title-wrapper .subtitle {
+    font-size: 2,5vw;
+  }
+
+  .info-title{
+    font-size: 5vw;
+  }
+
+  .info-wrapper{
+    padding: 0% 5% 10%;
+  }
+
+  .info-content-item {
+    font-size: 5vw;
+  }
+  .info-content-item span {
+    font-size: 3.5vw;
+  }
+
+  .oc-heading{
+    font-size: 3rem !important;
+  }
+  
+
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2017-21-5 2:48:23
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation flip-2-hor-top-fwd
+ * ----------------------------------------
+ */
+@-webkit-keyframes flip-2-hor-top-fwd {
+  0% {
+    transform: translateY(0) translateZ(0) rotateX(0);
+    transform-origin: 50% 0%;
+  }
+  100% {
+    transform: translateY(-100%) translateZ(100px) rotateX(-180deg);
+    transform-origin: 50% 100%;
+  }
+}
+@keyframes flip-2-hor-top-fwd {
+  0% {
+    transform: translateY(0) translateZ(0) rotateX(0);
+    transform-origin: 50% 0%;
+  }
+  100% {
+    transform: translateY(-100%) translateZ(100px) rotateX(-180deg);
+    transform-origin: 50% 100%;
+  }
+}
+/**
+ * ----------------------------------------
+ * animation flip-2-hor-bottom-fwd
+ * ----------------------------------------
+ */
+@-webkit-keyframes flip-2-hor-bottom-fwd {
+  0% {
+    transform: translateY(0) translateZ(0) rotateX(0);
+    transform-origin: 50% 100%;
+  }
+  100% {
+    transform: translateY(100%) translateZ(100px) rotateX(180deg);
+    transform-origin: 50% 0%;
+  }
+}
+@keyframes flip-2-hor-bottom-fwd {
+  0% {
+    transform: translateY(0) translateZ(0) rotateX(0);
+    transform-origin: 50% 100%;
+  }
+  100% {
+    transform: translateY(100%) translateZ(100px) rotateX(180deg);
+    transform-origin: 50% 0%;
+  }
+}

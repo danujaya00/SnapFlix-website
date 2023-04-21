@@ -13,7 +13,7 @@
   .countDown {
     font-family: 'Roboto', sans-serif;
     width: 550px;
-    height: 378px;
+    height: 100%;
     margin: auto;
     padding: 20px;
     box-sizing: border-box;
@@ -34,7 +34,6 @@
   @media(max-width: 550px) {
     .countDown {
       width: 100%;
-      height: 362px;
     }
   
     .countDown h1 {

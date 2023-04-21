@@ -161,10 +161,10 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-  "where you will have to create an amazing short film within the given time frame, that creates a platform for aspiring video makers, filmmakers, and enthusiasts to showcase their skills and to guide and encourage Sri Lankan youth to participate in international competitions.",
-  "Make our country shine on a global stage",
-  "Get ready to be a part of the most exciting and challenging competition in Sri Lanka. ",
-  "Keep Your Gear Ready! ",
+  "SNAP FLIX is a competition that creates a platform for aspiring video makers, filmmakers, and enthusiasts to showcase their skills and to guide and encourage Sri Lankan youth to participate in international competitions.",
+  "SNAP FLIX is a Short Film Hackathon where you will have to create an amazing short film within a given time frame.",
+
+  "SNAP FLIX is Sri Lanka's First-Ever Short Film Hackathon that challenges participants to create compelling and creative films in just a limited amount of time. This event is open to all Sri Lankans aged between 18-27, and it invites filmmakers, writers, and other creatives to collaborate and compete in a high-energy, fast-paced environment"
 ];
 
 const el = document.querySelector(".text");
