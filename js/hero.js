@@ -43,7 +43,7 @@ var messenger1 = function (el) {
   var m = this;
 
   m.init = function () {
-    m.codeletters = "a ds asd";
+    m.codeletters = "snap flix<>{}   ";
     m.message = 0;
     m.current_length = 0;
     m.fadeBuffer = false;
