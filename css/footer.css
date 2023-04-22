@@ -224,4 +224,8 @@
     }
 }
 
+.footer-icon{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px #fff;
+}
   

@@ -23,20 +23,6 @@
   }
 })();
 
-gsap.registerPlugin(ScrollTrigger);
-
-gsap.to(".scroll-text", {
-  scrollTrigger: {
-    trigger: ".scroll-text",
-    toggleActions: "play none none none",
-    scrub: 1,
-    start: "start bottom",
-    end: "100% start",
-    // markers:true,
-  }, // start the animation when ".box" enters the viewport (once)
-  x: "-210%",
-  duration: 10,
-});
 
 var messenger1 = function (el) {
   "use strict";
