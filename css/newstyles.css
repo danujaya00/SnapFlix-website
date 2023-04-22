@@ -805,60 +805,60 @@ body {
 
 
 .card-object.card-1 .front.aj{
-  background: #222 url(./../assets/img/oc/abdullah_result.webp) 90% 35%;
+  background: #222 url(./../assets/img/OC/abdullah_result.webp) 90% 35%;
   background-size: 115%;
   filter: grayscale(1);
 }
 .card-object.card-1 .back .img-wrapper.aj{
-  background: transparent url(./../assets/img/oc/abdullah_result.webp) 70% 45%;
+  background: transparent url(./../assets/img/OC/abdullah_result.webp) 70% 45%;
   background-size: cover;
 }
 .card-object.card-1 .back .avatar.aj{
-  background: transparent url(./../assets/img/oc/abdullah_result.webp) 40% 20%;
+  background: transparent url(./../assets/img/OC/abdullah_result.webp) 40% 20%;
   background-size: cover;
 }
 .card-object.card-2 .front.shawn {
-  background: #222 url(./../assets/img/oc/shawn_result.webp) 50% 90% no-repeat;
+  background: #222 url(./../assets/img/OC/shawn_result.webp) 50% 90% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-2 .back .img-wrapper.shawn {
-  background: transparent url(./../assets/img/oc/shawn_result.webp) 110% 60%;
+  background: transparent url(./../assets/img/OC/shawn_result.webp) 110% 60%;
   background-size: cover;
 }
 .card-object.card-2 .back .avatar.shawn {
-  background: transparent url(./../assets/img/oc/shawn_result.webp) 50% 50% no-repeat;
+  background: transparent url(./../assets/img/OC/shawn_result.webp) 50% 50% no-repeat;
   background-size: cover;
 }
 .card-object.card-3 .front.vinupa {
-  background: #222 url(./../assets/img/oc/vinupa_result.webp) 80% 100% no-repeat;
+  background: #222 url(./../assets/img/OC/vinupa_result.webp) 80% 100% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-3 .back .img-wrapper.vinupa {
-  background: transparent url(./../assets/img/oc/vinupa_result.webp) 90% 40% no-repeat;
+  background: transparent url(./../assets/img/OC/vinupa_result.webp) 90% 40% no-repeat;
   background-size: cover;
 }
 .card-object.card-3 .back .avatar.vinupa{
-  background: #fff url(./../assets/img/oc/vinupa_result.webp) 0 50% no-repeat;
+  background: #fff url(./../assets/img/OC/vinupa_result.webp) 0 50% no-repeat;
   background-size: cover;
 }
 
 
 .card-object.card-3 .front.dewmini {
-  background: #222 url(./../assets/img/oc/dewmini_result.webp) 80% 100% no-repeat;
+  background: #222 url(./../assets/img/OC/dewmini_result.webp) 80% 100% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-3 .back .img-wrapper.dewmini {
-  background: transparent url(./../assets/img/oc/dewmini_result.webp) 90% 55% no-repeat;
+  background: transparent url(./../assets/img/OC/dewmini_result.webp) 90% 55% no-repeat;
   background-size: cover;
 }
 .card-object.card-3 .back .avatar.dewmini{
-  background: #fff url(./../assets/img/oc/dewmini_result.webp) 0 50% no-repeat;
+  background: #fff url(./../assets/img/OC/dewmini_result.webp) 0 50% no-repeat;
   background-size: cover;
 }
 
@@ -867,64 +867,64 @@ body {
 /* finance */
 
 .card-object.card-1 .front.janudi{
-  background: #222 url(./../assets/img/oc/janudi_result.webp) 90% 25%;
+  background: #222 url(./../assets/img/OC/janudi_result.webp) 90% 25%;
   background-size: 115%;
   filter: grayscale(1);
 }
 .card-object.card-1 .back .img-wrapper.janudi{
-  background: transparent url(./../assets/img/oc/janudi_result.webp) 70% 65%;
+  background: transparent url(./../assets/img/OC/janudi_result.webp) 70% 65%;
   background-size: cover;
 }
 .card-object.card-1 .back .avatar.janudi{
-  background: transparent url(./../assets/img/oc/janudi_result.webp) 40% 20%;
+  background: transparent url(./../assets/img/OC/janudi_result.webp) 40% 20%;
   background-size: cover;
 }
 
 
 .card-object.card-2 .front.wikum {
-  background: #222 url(./../assets/img/oc/wikum_result.webp) 50% 90% no-repeat;
+  background: #222 url(./../assets/img/OC/wikum_result.webp) 50% 90% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-2 .back .img-wrapper.wikum {
-  background: transparent url(./../assets/img/oc/wikum_result.webp) 110% 20%;
+  background: transparent url(./../assets/img/OC/wikum_result.webp) 110% 20%;
   background-size: cover;
 }
 .card-object.card-2 .back .avatar.wikum {
-  background: transparent url(./../assets/img/oc/wikum_result.webp) 50% 50% no-repeat;
+  background: transparent url(./../assets/img/OC/wikum_result.webp) 50% 50% no-repeat;
   background-size: cover;
 }
 
 
 .card-object.card-3 .front.pramith {
-  background: #222 url(./../assets/img/oc/pramith_result.webp) 80% 100% no-repeat;
+  background: #222 url(./../assets/img/OC/pramith_result.webp) 80% 100% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-3 .back .img-wrapper.pramith {
-  background: transparent url(./../assets/img/oc/pramith_result.webp) 90% 20% no-repeat;
+  background: transparent url(./../assets/img/OC/pramith_result.webp) 90% 20% no-repeat;
   background-size: cover;
 }
 .card-object.card-3 .back .avatar.pramith{
-  background: #fff url(./../assets/img/oc/pramith_result.webp) 0 50% no-repeat;
+  background: #fff url(./../assets/img/OC/pramith_result.webp) 0 50% no-repeat;
   background-size: cover;
 }
 
 
 .card-object.card-3 .front.liviru {
-  background: #222 url(./../assets/img/oc/liviru_result.webp) 80% 100% no-repeat;
+  background: #222 url(./../assets/img/OC/liviru_result.webp) 80% 100% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-3 .back .img-wrapper.liviru {
-  background: transparent url(./../assets/img/oc/liviru_result.webp) 90% 40% no-repeat;
+  background: transparent url(./../assets/img/OC/liviru_result.webp) 90% 40% no-repeat;
   background-size: cover;
 }
 .card-object.card-3 .back .avatar.liviru{
-  background: #fff url(./../assets/img/oc/liviru_result.webp) 0 50% no-repeat;
+  background: #fff url(./../assets/img/OC/liviru_result.webp) 0 50% no-repeat;
   background-size: cover;
 }
 
@@ -934,64 +934,64 @@ body {
 /* Project */
 
 .card-object.card-1 .front.sathira{
-  background: #222 url(./../assets/img/oc/sathira_result.webp) 90% 35%;
+  background: #222 url(./../assets/img/OC/sathira_result.webp) 90% 35%;
   background-size: 115%;
   filter: grayscale(1);
 }
 .card-object.card-1 .back .img-wrapper.sathira{
-  background: transparent url(./../assets/img/oc/sathira_result.webp) 70% 20%;
+  background: transparent url(./../assets/img/OC/sathira_result.webp) 70% 20%;
   background-size: cover;
 }
 .card-object.card-1 .back .avatar.sathira{
-  background: transparent url(./../assets/img/oc/sathira_result.webp) 40% 20%;
+  background: transparent url(./../assets/img/OC/sathira_result.webp) 40% 20%;
   background-size: cover;
 }
 
 
 .card-object.card-2 .front.tharushi {
-  background: #222 url(./../assets/img/oc/tharushi_result.webp) 50% 90% no-repeat;
+  background: #222 url(./../assets/img/OC/tharushi_result.webp) 50% 90% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-2 .back .img-wrapper.tharushi {
-  background: transparent url(./../assets/img/oc/tharushi_result.webp) 110% 20%;
+  background: transparent url(./../assets/img/OC/tharushi_result.webp) 110% 20%;
   background-size: cover;
 }
 .card-object.card-2 .back .avatar.tharushi {
-  background: transparent url(./../assets/img/oc/tharushi_result.webp) 50% 50% no-repeat;
+  background: transparent url(./../assets/img/OC/tharushi_result.webp) 50% 50% no-repeat;
   background-size: cover;
 }
 
 
 .card-object.card-3 .front.samindu {
-  background: #222 url(./../assets/img/oc/samindu_result.webp) 80% 30% no-repeat;
+  background: #222 url(./../assets/img/OC/samindu_result.webp) 80% 30% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-3 .back .img-wrapper.samindu {
-  background: transparent url(./../assets/img/oc/samindu_result.webp) 90% 20% no-repeat;
+  background: transparent url(./../assets/img/OC/samindu_result.webp) 90% 20% no-repeat;
   background-size: cover;
 }
 .card-object.card-3 .back .avatar.samindu{
-  background: #fff url(./../assets/img/oc/samindu_result.webp) 0 50% no-repeat;
+  background: #fff url(./../assets/img/OC/samindu_result.webp) 0 50% no-repeat;
   background-size: cover;
 }
 
 
 .card-object.card-3 .front.himasha {
-  background: #222 url(./../assets/img/oc/himasha_result.webp) 80% 100% no-repeat;
+  background: #222 url(./../assets/img/OC/himasha_result.webp) 80% 100% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-3 .back .img-wrapper.himasha {
-  background: transparent url(./../assets/img/oc/himasha_result.webp) 90% 40% no-repeat;
+  background: transparent url(./../assets/img/OC/himasha_result.webp) 90% 40% no-repeat;
   background-size: cover;
 }
 .card-object.card-3 .back .avatar.himasha{
-  background: #fff url(./../assets/img/oc/himasha_result.webp) 0 50% no-repeat;
+  background: #fff url(./../assets/img/OC/himasha_result.webp) 0 50% no-repeat;
   background-size: cover;
 }
 
@@ -1000,79 +1000,79 @@ body {
 /* desig and content */
 
 .card-object.card-1 .front.achchu{
-  background: #222 url(./../assets/img/oc/achchu_result.webp) 90% 35%;
+  background: #222 url(./../assets/img/OC/achchu_result.webp) 90% 35%;
   background-size: 115%;
   filter: grayscale(1);
 }
 .card-object.card-1 .back .img-wrapper.achchu{
-  background: transparent url(./../assets/img/oc/achchu_result.webp) 70% 15%;
+  background: transparent url(./../assets/img/OC/achchu_result.webp) 70% 15%;
   background-size: cover;
 }
 .card-object.card-1 .back .avatar.achchu{
-  background: transparent url(./../assets/img/oc/achchu_result.webp) 40% 20%;
+  background: transparent url(./../assets/img/OC/achchu_result.webp) 40% 20%;
   background-size: cover;
 }
 
 
 .card-object.card-2 .front.zahara {
-  background: #222 url(./../assets/img/oc/zahara_result.webp) 50% 40% no-repeat;
+  background: #222 url(./../assets/img/OC/zahara_result.webp) 50% 40% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-2 .back .img-wrapper.zahara {
-  background: transparent url(./../assets/img/oc/zahara_result.webp) 110% 20%;
+  background: transparent url(./../assets/img/OC/zahara_result.webp) 110% 20%;
   background-size: cover;
 }
 .card-object.card-2 .back .avatar.zahara {
-  background: transparent url(./../assets/img/oc/zahara_result.webp) 50% 50% no-repeat;
+  background: transparent url(./../assets/img/OC/zahara_result.webp) 50% 50% no-repeat;
   background-size: cover;
 }
 
 .card-object.card-2 .front.pabasara {
-  background: #222 url(./../assets/img/oc/pabasara_result.webp) 50% 90% no-repeat;
+  background: #222 url(./../assets/img/OC/pabasara_result.webp) 50% 90% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-2 .back .img-wrapper.pabasara {
-  background: transparent url(./../assets/img/oc/pabasara_result.webp) 110% 20%;
+  background: transparent url(./../assets/img/OC/pabasara_result.webp) 110% 20%;
   background-size: cover;
 }
 .card-object.card-2 .back .avatar.pabasara {
-  background: transparent url(./../assets/img/oc/pabasara_result.webp) 50% 50% no-repeat;
+  background: transparent url(./../assets/img/OC/pabasara_result.webp) 50% 50% no-repeat;
   background-size: cover;
 }
 
 
 .card-object.card-3 .front.waruna {
-  background: #222 url(./../assets/img/oc/waruna_result.webp) 80% 100% no-repeat;
+  background: #222 url(./../assets/img/OC/waruna_result.webp) 80% 100% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-3 .back .img-wrapper.waruna {
-  background: transparent url(./../assets/img/oc/waruna_result.webp) 90% 20% no-repeat;
+  background: transparent url(./../assets/img/OC/waruna_result.webp) 90% 20% no-repeat;
   background-size: cover;
 }
 .card-object.card-3 .back .avatar.waruna{
-  background: #fff url(./../assets/img/oc/waruna_result.webp) 0 50% no-repeat;
+  background: #fff url(./../assets/img/OC/waruna_result.webp) 0 50% no-repeat;
   background-size: cover;
 }
 
 
 .card-object.card-3 .front.nisura {
-  background: #222 url(./../assets/img/oc/nisura_result.webp) 80% 100% no-repeat;
+  background: #222 url(./../assets/img/OC/nisura_result.webp) 80% 100% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-3 .back .img-wrapper.nisura {
-  background: transparent url(./../assets/img/oc/nisura_result.webp) 90% 40% no-repeat;
+  background: transparent url(./../assets/img/OC/nisura_result.webp) 90% 40% no-repeat;
   background-size: cover;
 }
 .card-object.card-3 .back .avatar.nisura{
-  background: #fff url(./../assets/img/oc/nisura_result.webp) 0 50% no-repeat;
+  background: #fff url(./../assets/img/OC/nisura_result.webp) 0 50% no-repeat;
   background-size: cover;
 }
 
@@ -1081,64 +1081,64 @@ body {
 /* design and web */
 
 .card-object.card-1 .front.vimukthi{
-  background: #222 url(./../assets/img/oc/vimukthi_result.webp) 90% 55%;
+  background: #222 url(./../assets/img/OC/vimukthi_result.webp) 90% 55%;
   background-size: 115%;
   filter: grayscale(1);
 }
 .card-object.card-1 .back .img-wrapper.vimukthi{
-  background: transparent url(./../assets/img/oc/vimukthi_result.webp) 70% 15%;
+  background: transparent url(./../assets/img/OC/vimukthi_result.webp) 70% 15%;
   background-size: cover;
 }
 .card-object.card-1 .back .avatar.vimukthi{
-  background: transparent url(./../assets/img/oc/vimukthi_result.webp) 40% 20%;
+  background: transparent url(./../assets/img/OC/vimukthi_result.webp) 40% 20%;
   background-size: cover;
 }
 
 
 .card-object.card-2 .front.ravien {
-  background: #222 url(./../assets/img/oc/ravien_result.webp) 50% 90% no-repeat;
+  background: #222 url(./../assets/img/OC/ravien_result.webp) 50% 90% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-2 .back .img-wrapper.ravien {
-  background: transparent url(./../assets/img/oc/ravien_result.webp) 110% 20%;
+  background: transparent url(./../assets/img/OC/ravien_result.webp) 110% 20%;
   background-size: cover;
 }
 .card-object.card-2 .back .avatar.ravien {
-  background: transparent url(./../assets/img/oc/ravien_result.webp) 50% 50% no-repeat;
+  background: transparent url(./../assets/img/OC/ravien_result.webp) 50% 50% no-repeat;
   background-size: cover;
 }
 
 
 .card-object.card-3 .front.kushantha {
-  background: #222 url(./../assets/img/oc/kushantha_result.webp) 80% 100% no-repeat;
+  background: #222 url(./../assets/img/OC/kushantha_result.webp) 80% 100% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-3 .back .img-wrapper.kushantha {
-  background: transparent url(./../assets/img/oc/kushantha_result.webp) 90% 40% no-repeat;
+  background: transparent url(./../assets/img/OC/kushantha_result.webp) 90% 40% no-repeat;
   background-size: cover;
 }
 .card-object.card-3 .back .avatar.kushantha{
-  background: #fff url(./../assets/img/oc/kushantha_result.webp) 0 50% no-repeat;
+  background: #fff url(./../assets/img/OC/kushantha_result.webp) 0 50% no-repeat;
   background-size: cover;
 }
 
 
 .card-object.card-3 .front.danujaya {
-  background: #222 url(./../assets/img/oc/danujaya_result.webp) 80% 100% no-repeat;
+  background: #222 url(./../assets/img/OC/danujaya_result.webp) 80% 100% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-3 .back .img-wrapper.danujaya {
-  background: transparent url(./../assets/img/oc/danujaya_result.webp) 90% 40% no-repeat;
+  background: transparent url(./../assets/img/OC/danujaya_result.webp) 90% 40% no-repeat;
   background-size: cover;
 }
 .card-object.card-3 .back .avatar.danujaya{
-  background: #fff url(./../assets/img/oc/danujaya_result.webp) 0 50% no-repeat;
+  background: #fff url(./../assets/img/OC/danujaya_result.webp) 0 50% no-repeat;
   background-size: cover;
 }
 
@@ -1149,64 +1149,64 @@ body {
 /* Marketing */
 
 .card-object.card-1 .front.venuri{
-  background: #222 url(./../assets/img/oc/venuri_result.webp) 90% 35%;
+  background: #222 url(./../assets/img/OC/venuri_result.webp) 90% 35%;
   background-size: 115%;
   filter: grayscale(1);
 }
 .card-object.card-1 .back .img-wrapper.venuri{
-  background: transparent url(./../assets/img/oc/venuri_result.webp) 70% 15%;
+  background: transparent url(./../assets/img/OC/venuri_result.webp) 70% 15%;
   background-size: cover;
 }
 .card-object.card-1 .back .avatar.venuri{
-  background: transparent url(./../assets/img/oc/venuri_result.webp) 40% 20%;
+  background: transparent url(./../assets/img/OC/venuri_result.webp) 40% 20%;
   background-size: cover;
 }
 
 
 .card-object.card-2 .front.dilan {
-  background: #222 url(./../assets/img/oc/dilan_result.webp) 50% 50% no-repeat;
+  background: #222 url(./../assets/img/OC/dilan_result.webp) 50% 50% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-2 .back .img-wrapper.dilan {
-  background: transparent url(./../assets/img/oc/dilan_result.webp) 110% 20%;
+  background: transparent url(./../assets/img/OC/dilan_result.webp) 110% 20%;
   background-size: cover;
 }
 .card-object.card-2 .back .avatar.dilan {
-  background: transparent url(./../assets/img/oc/dilan_result.webp) 50% 50% no-repeat;
+  background: transparent url(./../assets/img/OC/dilan_result.webp) 50% 50% no-repeat;
   background-size: cover;
 }
 
 
 .card-object.card-3 .front.jasitharan {
-  background: #222 url(./../assets/img/oc/jasitharan_result.webp) 80% 100% no-repeat;
+  background: #222 url(./../assets/img/OC/jasitharan_result.webp) 80% 100% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-3 .back .img-wrapper.jasitharan {
-  background: transparent url(./../assets/img/oc/jasitharan_result.webp) 90% 20% no-repeat;
+  background: transparent url(./../assets/img/OC/jasitharan_result.webp) 90% 20% no-repeat;
   background-size: cover;
 }
 .card-object.card-3 .back .avatar.jasitharan{
-  background: #fff url(./../assets/img/oc/jasitharan_result.webp) 0 50% no-repeat;
+  background: #fff url(./../assets/img/OC/jasitharan_result.webp) 0 50% no-repeat;
   background-size: cover;
 }
 
 
 .card-object.card-3 .front.kaveesha {
-  background: #222 url(./../assets/img/oc/kaveesha_result.webp) 80% 100% no-repeat;
+  background: #222 url(./../assets/img/OC/kaveesha_result.webp) 80% 100% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-3 .back .img-wrapper.kaveesha {
-  background: transparent url(./../assets/img/oc/kaveesha_result.webp) 90% 20% no-repeat;
+  background: transparent url(./../assets/img/OC/kaveesha_result.webp) 90% 20% no-repeat;
   background-size: cover;
 }
 .card-object.card-3 .back .avatar.kaveesha{
-  background: #fff url(./../assets/img/oc/kaveesha_result.webp) 0 50% no-repeat;
+  background: #fff url(./../assets/img/OC/kaveesha_result.webp) 0 50% no-repeat;
   background-size: cover;
 }
 
@@ -1214,48 +1214,48 @@ body {
 /* Logistic */
 
 .card-object.card-1 .front.moushika{
-  background: #222 url(./../assets/img/oc/moushika_result.webp) 90% 35%;
+  background: #222 url(./../assets/img/OC/moushika_result.webp) 90% 35%;
   background-size: 115%;
   filter: grayscale(1);
 }
 .card-object.card-1 .back .img-wrapper.moushika{
-  background: transparent url(./../assets/img/oc/moushika_result.webp) 60% 25%;
+  background: transparent url(./../assets/img/OC/moushika_result.webp) 60% 25%;
   background-size: cover;
 }
 .card-object.card-1 .back .avatar.moushika{
-  background: transparent url(./../assets/img/oc/moushika_result.webp) 40% 20%;
+  background: transparent url(./../assets/img/OC/moushika_result.webp) 40% 20%;
   background-size: cover;
 }
 
 
 .card-object.card-2 .front.siluni {
-  background: #222 url(./../assets/img/oc/siluni_result.webp) 50% 90% no-repeat;
+  background: #222 url(./../assets/img/OC/siluni_result.webp) 50% 90% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-2 .back .img-wrapper.siluni {
-  background: transparent url(./../assets/img/oc/siluni_result.webp) 110% 8%;
+  background: transparent url(./../assets/img/OC/siluni_result.webp) 110% 8%;
   background-size: cover;
 }
 .card-object.card-2 .back .avatar.siluni {
-  background: transparent url(./../assets/img/oc/siluni_result.webp) 50% 50% no-repeat;
+  background: transparent url(./../assets/img/OC/siluni_result.webp) 50% 50% no-repeat;
   background-size: cover;
 }
 
 
 .card-object.card-3 .front.nisal {
-  background: #222 url(./../assets/img/oc/nisal_result.webp) 80% 0% no-repeat;
+  background: #222 url(./../assets/img/OC/nisal_result.webp) 80% 0% no-repeat;
   background-size: cover;
   filter: grayscale(1);
 
 }
 .card-object.card-3 .back .img-wrapper.nisal {
-  background: transparent url(./../assets/img/oc/nisal_result.webp) 90% 0% no-repeat;
+  background: transparent url(./../assets/img/OC/nisal_result.webp) 90% 0% no-repeat;
   background-size: cover;
 }
 .card-object.card-3 .back .avatar.nisal{
-  background: #fff url(./../assets/img/oc/nisal_result.webp) 0 0% no-repeat;
+  background: #fff url(./../assets/img/OC/nisal_result.webp) 0 0% no-repeat;
   background-size: cover;
 }
 
