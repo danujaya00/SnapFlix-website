@@ -1,1411 +1,1362 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>SnapFilx</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <!-- <script
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description"
+    content="Calling all filmmakers! Submit your short films to our competition and showcase your creativity to the world. Join a community of talented artists and compete for exciting prizes for sri lanka's first-ever short film hackathon.">
+  <meta name="keywords"
+    content="filmmakers, short films, competition, creativity, community, artists, prizes, cinema, storytelling, submission, filmmaking, contest">
+  <meta name="author" content="" />
+
+  <meta property="og:title" content=SNAP FLIX>
+  <meta property="og:site_name" content=SNAP FLIX>
+  <meta property="og:url" content=https://snapflix.racucsc.xyz/> <meta property="og:description" content=>
+  <meta property="og:type" content=website>
+  <meta property="og:image" content=https://snapflix.racucsc.xyz/assets/favicon.png>
+   
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@racucsc">
+  <meta name="twitter:creator" content="@racucsc">
+  <meta name="twitter:title" content="SNAP FLIX">
+  <meta name="twitter:description" content="Snap Flix is a short film hackathon that challenges participants to create compelling and creative films in just a limited amount of time. The event invites filmmakers, writers, and other creatives to collaborate and compete in a high-energy, fast-paced environment.">
+  <meta name="twitter:image" content="https://snapflix.racucsc.xyz/assets/favicon.png">
+
+  <title>SnapFilx</title>
+  <link rel="icon" href="./assets/favicon.png" type="image/png" >
+  <!-- Font Awesome icons (free version)-->
+  <!-- <script
       src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
       crossorigin="anonymous"
     ></script> -->
-    <!-- Google fonts-->
-    <link
-      href="https://fonts.googleapis.com/css?family=Varela+Round"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-      rel="stylesheet"
-    />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/hero.css" rel="stylesheet" />
-    <link href="css/flipdown.css" rel="stylesheet" />
-    <link href="css/count-down.css" rel="stylesheet" />
-    <link href="css/oc.css" rel="stylesheet" />
-    <link href="css/contact-us.css" rel="stylesheet" />
-    <link href="css/about.css" rel="stylesheet" />
-    <link href="css/footer.css" rel="stylesheet" />
-    <link href="css/timeline.css" rel="stylesheet" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
-  <body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="mainNav">
-      <div class="container-fluid px-0">
-        <a class="navbar-brand" href="#page-top"
-          ><img
-            src="./assets/sfx/SnapFlix.svg"
-            class="navbar-logo"
-            alt=""
-            id="navbarLogo"
-        /></a>
-        <button
-          class="navbar-toggler navbar-toggler-right"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <svg
-            width="40px"
-            height="40px"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M5 8H13.75M5 12H19M10.25 16L19 16"
-              stroke="#FFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </button>
-        <div class="collapse navbar-collapse px-4" id="navbarResponsive">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <!-- <li class="nav-item">
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="css/newstyles.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="mainNav">
+    <div class="container-fluid px-0">
+      <a class="navbar-brand" href="#page-top"><img src="./assets/sfx/SnapFlix.svg" class="navbar-logo" alt=""
+          id="navbarLogo" /></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 8H13.75M5 12H19M10.25 16L19 16" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+      <div class="collapse navbar-collapse px-4" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <!-- <li class="nav-item">
               <a class="nav-link" href="#countdown">Registrations</a>
             </li> -->
-            <li class="nav-item">
-              <a class="nav-link" href="#timeline">Timeline</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#oc">Our Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#timeline">Timeline</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#oc">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <!-- Masthead-->
-    <header class="masthead" id="parallax">
-      <div
-        class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center"
-      >
-        <div class="d-flex justify-content-center">
-          <div class="text-center">
-            <!-- <h1 class="mx-auto my-0 head-hero text-uppercase" data-aos="fade-up">
-              Snap Flix
-            </h1> -->
-            <img
-              src="./assets/sfx/SnapFlix.svg"
-              class="hero-logo"
-              alt=""
-              srcset=""
-            />
-            <br />
+    </div>
+  </nav>
+  <!-- Masthead-->
+  <header class="masthead" id="parallax">
+    <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+      <div class="d-flex justify-content-center">
+        <div class="text-center">
+          <img src="./assets/sfx/SnapFlix.svg" class="hero-logo" alt="" srcset="" />
+          <br />
 
-            <h2
-              class="text-white-50 mx-auto mt-2 mb-5"
-              data-aos="fade-up"
-              data-aos-delay="500"
-            >
-              <div id="messenger1" class="text-white mb-4 fs-3"></div>
-              <div
-                class="container-fluid vh-30 d-flex justify-content-center align-middle align-items-center"
-              >
-                <div class="row-fluid">
-                  <div class="col-12 mh-100">
-                    <div class="countDown align-content-center">
-                      <!-- <span class="text-white">Registration Opens in</span> -->
-                      <div
-                        id="flipdown"
-                        class="flipdown flipdown__theme-light"
-                      ></div>
-                    </div>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5" data-aos="fade-up" data-aos-delay="500">
+            <div id="messenger1" class="text-white mb-4 fs-3"></div>
+            <div class="container-fluid vh-30 d-flex justify-content-center align-middle align-items-center">
+              <div class="row-fluid">
+                <div class="col-12 mh-100">
+                  <div class="countDown align-content-center">
+                    <!-- <span class="text-white">Registration Opens in</span> -->
+                    <div id="flipdown" class="flipdown flipdown__theme-light"></div>
                   </div>
                 </div>
               </div>
-            </h2>
-            <a
-              class="btn btn-outline-light btn-hero"
-              href="#about"
-              data-aos="fade-down"
-              data-aos-delay="1000"
-              >Lights Camera Action</a
-            >
-          </div>
+            </div>
+          </h2>
+          <a class="btn btn-outline-light btn-hero" href="#about" data-aos="fade-down" data-aos-delay="1000">Lights
+            Camera Action</a>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <!-- About -->
-    <section id="about">
-      <div class="aboutvideo">
-        <video
-          autoplay
-          muted
-          loop
-          controls
-          playsinline
-          style="pointer-events: none"
-        >
-          <source src="./assets/sfx/SNAP FLIX Teaser.mp4" type="video/mp4" />
-        </video>
-        <div class="overlay"></div>
-        <div class="aboutcontent">
-          <div
-            class="container px-4 px-lg-5 vh-100 d-flex justify-content-center align-items-center"
-          >
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-              <div class="col-sm-12">
-                <h1
-                  class="mx-auto topic"
-                  data-aos="fade-up"
-                  data-aos-delay="700"
-                >
-                  What is SnapFlix? <br />
-                </h1>
+  <!-- About -->
+  <section id="about">
+    <div class="aboutvideo overflow-hidden">
 
-                <div class="text mb-5 text-center fs-5"></div>
+      <iframe width="100%" height="110%" class="video" title="youtube video player"
+        src="https://www.youtube.com/embed/ujnX5u1Pt5s?playlist=ujnX5u1Pt5s&autoplay=1&mute=1&loop=1&controls=0" allowfullscreen>
+      </iframe>
+      <div class="overlay"></div>
+      <div class="aboutcontent">
+        <div class="container px-4 px-lg-5 vh-100 d-flex justify-content-center align-items-center">
+          <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-sm-12">
+              <h1 class="mx-auto topic" data-aos="fade-up" data-aos-delay="700">
+                What is SnapFlix? <br />
+              </h1>
 
-                <div class="wrapperX text-center">
-                  <a
-                    class="btn btn-outline-light btn-hero"
-                    href="https://www.youtube.com/watch?v=ujnX5u1Pt5s"
-                    data-aos="fade-down"
-                    data-aos-delay="1000"
-                    >Watch Full Video</a
-                  >
-                </div>
+              <div class="text mb-5 text-center fs-5"></div>
+
+              <div class="wrapperX text-center">
+                <a class="btn btn-outline-light btn-hero" href="https://www.youtube.com/watch?v=ujnX5u1Pt5s"
+                  data-aos="fade-down" data-aos-delay="1000">Watch Trailer</a>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <!-- </div>  -->
-    </section>
+    <!-- </div>  -->
+  </section>
 
-    <!-- Timeline-->
-    <section class="timeline-section text-center" id="timeline">
-      <h1 class="topic">Timeline</h1>
-      <div id="snippetContent">
-        <div class="container">
-          <div class="main-timeline">
-            <div class="timeline">
-              <div class="icon" data-aos="zoom-in-up"></div>
-              <div class="date-content" data-aos="zoom-in-up">
-                <div class="date-outer">
-                  <span class="date">
-                    <span class="month">May 14</span>
-                    <span class="year">2023</span>
-                  </span>
-                </div>
-              </div>
-              <div class="timeline-content" data-aos="zoom-in-up">
-                <h5 class="title">Workshop Registration</h5>
-                <!-- <p class="description"></p> -->
+  <!-- Timeline-->
+  <section class="timeline-section text-center mt-4" id="timeline">
+    <h1 class="topic mt- ">Timeline</h1>
+    <div id="snippetContent">
+      <div class="container">
+        <div class="main-timeline">
+          <div class="timeline">
+            <div class="icon" data-aos="zoom-in-up"></div>
+            <div class="date-content" data-aos="zoom-in-up">
+              <div class="date-outer">
+                <span class="date">
+                  <span class="month">May 14</span>
+                  <span class="year">2023</span>
+                </span>
               </div>
             </div>
-            <div class="timeline">
-              <div class="icon" data-aos="zoom-in-up"></div>
-              <div class="date-content" data-aos="zoom-in-up">
-                <div class="date-outer">
-                  <span class="date">
-                    <span class="month">May 20</span>
-                    <span class="year">2023</span>
-                  </span>
-                </div>
-              </div>
-              <div class="timeline-content" data-aos="zoom-in-up">
-                <h5 class="title">1st Workshop</h5>
-                <p class="description">
-                  will be discussed regarding how to create short films
-                </p>
+            <div class="timeline-content" data-aos="zoom-in-up">
+              <h5 class="title">Workshop Registration</h5>
+              <!-- <p class="description"></p> -->
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="icon" data-aos="zoom-in-up"></div>
+            <div class="date-content" data-aos="zoom-in-up">
+              <div class="date-outer">
+                <span class="date">
+                  <span class="month">May 20</span>
+                  <span class="year">2023</span>
+                </span>
               </div>
             </div>
-            <div class="timeline">
-              <div class="icon" data-aos="zoom-in-up"></div>
-              <div class="date-content" data-aos="zoom-in-up">
-                <div class="date-outer">
-                  <span class="date">
-                    <span class="month">May 21</span>
-                    <span class="year">2023</span>
-                  </span>
-                </div>
-              </div>
-              <div class="timeline-content" data-aos="zoom-in-up">
-                <h5 class="title">Open submission for first round</h5>
-                <p class="description"></p>
+            <div class="timeline-content" data-aos="zoom-in-up">
+              <h5 class="title">1st Workshop</h5>
+              <p class="description">
+                will be discussed regarding how to create short films
+              </p>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="icon" data-aos="zoom-in-up"></div>
+            <div class="date-content" data-aos="zoom-in-up">
+              <div class="date-outer">
+                <span class="date">
+                  <span class="month">May 21</span>
+                  <span class="year">2023</span>
+                </span>
               </div>
             </div>
-            <div class="timeline">
-              <div class="icon" data-aos="zoom-in-up"></div>
-              <div class="date-content" data-aos="zoom-in-up">
-                <div class="date-outer">
-                  <span class="date">
-                    <span class="month">May 27</span>
-                    <span class="year">2023</span>
-                  </span>
-                </div>
-              </div>
-              <div class="timeline-content" data-aos="zoom-in-up">
-                <h5 class="title">2nd workshop</h5>
-                <p class="description">Awareness Seesion</p>
+            <div class="timeline-content" data-aos="zoom-in-up">
+              <h5 class="title">Open submission for first round</h5>
+              <p class="description"></p>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="icon" data-aos="zoom-in-up"></div>
+            <div class="date-content" data-aos="zoom-in-up">
+              <div class="date-outer">
+                <span class="date">
+                  <span class="month">May 27</span>
+                  <span class="year">2023</span>
+                </span>
               </div>
             </div>
-            <div class="timeline">
-              <div class="icon" data-aos="zoom-in-up"></div>
-              <div class="date-content" data-aos="zoom-in-up">
-                <div class="date-outer">
-                  <span class="date">
-                    <span class="month">June 11</span>
-                    <span class="year">2023</span>
-                  </span>
-                </div>
+            <div class="timeline-content" data-aos="zoom-in-up">
+              <h5 class="title">2nd workshop</h5>
+              <p class="description">Awareness Seesion</p>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="icon" data-aos="zoom-in-up"></div>
+            <div class="date-content" data-aos="zoom-in-up">
+              <div class="date-outer">
+                <span class="date">
+                  <span class="month">June 11</span>
+                  <span class="year">2023</span>
+                </span>
               </div>
-              <div class="timeline-content" data-aos="zoom-in-up">
-                <h5 class="title">Close submission for first round</h5>
-                <p class="description"></p>
-              </div>
+            </div>
+            <div class="timeline-content" data-aos="zoom-in-up">
+              <h5 class="title">Close submission for first round</h5>
+              <p class="description"></p>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- OC team -->
-    <section id="oc">
-      <div class="container-fluid bg-black">
-        <div class="row">
-          <div
-            class="col-sm-12 text-center topic py-5 text-50"
-            data-aos="fade-up"
-          >
-            <h1 class="oc-heading">Organizing Committee</h1>
+  <!-- OC team -->
+  <section id="oc">
+    <div class="container-fluid bg-black">
+      <div class="row">
+        <div class="col-sm-12 text-center topic py-5 text-50" data-aos="fade-up">
+          <h1 class="oc-heading">Organizing Committee</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <!-- abdulla -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="0">
+          <div class="card-wrapper">
+            <div class="card-1 card-object card-object-hf">
+              <a class="face front aj" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Abdullah</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper aj">
+                  <div class="avatar aj"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Abdullah Jasmin</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Event Manager</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
-        <div class="row justify-content-center">
-          <!-- abdulla -->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="0"
-          >
-            <div class="card-wrapper">
-              <div class="card-1 card-object card-object-hf">
-                <a class="face front aj" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Abdullah</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper aj">
-                    <div class="avatar aj"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Abdullah Jasmin</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Editor</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- Shawn -->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="100"
-          >
-            <div class="card-wrapper">
-              <div class="card-2 card-object card-object-hf">
-                <a class="face front shawn" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Shawn</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper shawn">
-                    <div class="avatar shawn"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Shawn Rodrigo</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Digital Communications Director</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
-            </div>
-          </div>
-
-          <!-- vinupa -->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="200"
-          >
-            <div class="card-wrapper">
-              <div class="card-3 card-object card-object-hf">
-                <a class="face front vinupa" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Vinupa</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper vinupa">
-                    <div class="avatar vinupa"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Vinupa Thenuka</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Project Co-Chair</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- dewmini -->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="300"
-          >
-            <div class="card-wrapper">
-              <div class="card-3 card-object card-object-hf">
-                <a class="face front dewmini" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Dewmini</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper dewmini">
-                    <div class="avatar dewmini"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Dewmini Liyanawatte</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Project Co-Chair</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
+        <!-- Shawn -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="100">
+          <div class="card-wrapper">
+            <div class="card-2 card-object card-object-hf">
+              <a class="face front shawn" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Shawn</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper shawn">
+                  <div class="avatar shawn"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Shawn Rodrigo</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Event Manager</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
         </div>
 
+        <!-- vinupa -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="200">
+          <div class="card-wrapper">
+            <div class="card-3 card-object card-object-hf">
+              <a class="face front vinupa" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Vinupa</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper vinupa">
+                  <div class="avatar vinupa"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Vinupa Thenuka</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Project Co-Chair</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- dewmini -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="300">
+          <div class="card-wrapper">
+            <div class="card-3 card-object card-object-hf">
+              <a class="face front dewmini" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Dewmini</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper dewmini">
+                  <div class="avatar dewmini"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Dewmini Liyanawatte</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Project Co-Chair</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
         <!-- finace team -->
-        <div class="row">
-          <!-- sathira-->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="200"
-          >
-            <div class="card-wrapper">
-              <div class="card-1 card-object card-object-hf">
-                <a class="face front sathira" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Sathira</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper sathira">
-                    <div class="avatar sathira"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Sathira Gardihewa</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Project Team</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
+        <!-- sathira-->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="200">
+          <div class="card-wrapper">
+            <div class="card-1 card-object card-object-hf">
+              <a class="face front sathira" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Sathira</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper sathira">
+                  <div class="avatar sathira"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Sathira Gardihewa</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Project Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
+        </div>
 
-          <!-- tharushi -->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="300"
-          >
-            <div class="card-wrapper">
-              <div class="card-2 card-object card-object-hf">
-                <a class="face front tharushi" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Tharushi</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper tharushi">
-                    <div class="avatar tharushi"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Tharushi Maduhansi</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Project Team</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
+        <!-- tharushi -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="300">
+          <div class="card-wrapper">
+            <div class="card-2 card-object card-object-hf">
+              <a class="face front tharushi" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Tharushi</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper tharushi">
+                  <div class="avatar tharushi"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Tharushi Maduhansi</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Project Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
+        </div>
 
-          <!-- samindu -->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="400"
-          >
-            <div class="card-wrapper">
-              <div class="card-3 card-object card-object-hf">
-                <a class="face front samindu" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">samindu</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper samindu">
-                    <div class="avatar samindu"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Samindu Cooray</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Project Team</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
+        <!-- samindu -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="400">
+          <div class="card-wrapper">
+            <div class="card-3 card-object card-object-hf">
+              <a class="face front samindu" href="#">
+                <div class="title-wrapper">
+                  <div class="title">samindu</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper samindu">
+                  <div class="avatar samindu"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Samindu Cooray</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Project Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
+        </div>
 
-          <!-- moushika-->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="0"
-          >
-            <div class="card-wrapper">
-              <div class="card-1 card-object card-object-hf">
-                <a class="face front moushika" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Moushika</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper moushika">
-                    <div class="avatar moushika"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Moushika Kiriyankalee</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Logistics Team</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
+        <!-- moushika-->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="0">
+          <div class="card-wrapper">
+            <div class="card-1 card-object card-object-hf">
+              <a class="face front moushika" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Moushika</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper moushika">
+                  <div class="avatar moushika"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Moushika Kiriyankalee</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Logistics Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
+        </div>
 
-          <!-- siluni -->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="500"
-          >
-            <div class="card-wrapper">
-              <div class="card-2 card-object card-object-hf">
-                <a class="face front siluni" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Siluni</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper siluni">
-                    <div class="avatar siluni"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Siluni Alahakoon</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Logistics Team</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
+        <!-- siluni -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="500">
+          <div class="card-wrapper">
+            <div class="card-2 card-object card-object-hf">
+              <a class="face front siluni" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Siluni</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper siluni">
+                  <div class="avatar siluni"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Siluni Alahakoon</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Logistics Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
+        </div>
 
-          <!-- nisal -->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="100"
-          >
-            <div class="card-wrapper">
-              <div class="card-3 card-object card-object-hf">
-                <a class="face front nisal" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Nisal</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper nisal">
-                    <div class="avatar nisal"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Nisal Peris</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Logistics Team</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
+        <!-- nisal -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="100">
+          <div class="card-wrapper">
+            <div class="card-3 card-object card-object-hf">
+              <a class="face front nisal" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Nisal</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper nisal">
+                  <div class="avatar nisal"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Nisal Peris</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Logistics Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
         </div>
 
         <!-- Project team and content  -->
-        <div class="row">
-          <!-- Janudi-->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="400"
-          >
-            <div class="card-wrapper">
-              <div class="card-1 card-object card-object-hf">
-                <a class="face front janudi" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Janudi</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper janudi">
-                    <div class="avatar janudi"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Janudi Welikadaarchchi</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Finance Team</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
+        <!-- Janudi-->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="400">
+          <div class="card-wrapper">
+            <div class="card-1 card-object card-object-hf">
+              <a class="face front janudi" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Janudi</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper janudi">
+                  <div class="avatar janudi"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Janudi Welikadaarchchi</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Finance Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
+        </div>
 
-          <!-- wikum -->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="500"
-          >
-            <div class="card-wrapper">
-              <div class="card-2 card-object card-object-hf">
-                <a class="face front wikum" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Wikum</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper wikum">
-                    <div class="avatar wikum"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Wikum Prethika</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Finance Team</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
+        <!-- wikum -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="500">
+          <div class="card-wrapper">
+            <div class="card-2 card-object card-object-hf">
+              <a class="face front wikum" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Wikum</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper wikum">
+                  <div class="avatar wikum"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Wikum Prethika</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Finance Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
+        </div>
 
-          <!-- pramith -->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="100"
-          >
-            <div class="card-wrapper">
-              <div class="card-3 card-object card-object-hf">
-                <a class="face front pramith" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Pramith</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper pramith">
-                    <div class="avatar pramith"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Pramith Priyamantha</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Finance Team</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
+        <!-- pramith -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="100">
+          <div class="card-wrapper">
+            <div class="card-3 card-object card-object-hf">
+              <a class="face front pramith" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Pramith</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper pramith">
+                  <div class="avatar pramith"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Pramith Priyamantha</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Finance Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
+        </div>
 
-          <!-- liviru -->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="200"
-          >
-            <div class="card-wrapper">
-              <div class="card-3 card-object card-object-hf">
-                <a class="face front liviru" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Liviru</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper liviru">
-                    <div class="avatar liviru"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Liviru Samarawickrama</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Finance Team</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
+        <!-- liviru -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="200">
+          <div class="card-wrapper">
+            <div class="card-3 card-object card-object-hf">
+              <a class="face front liviru" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Liviru</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper liviru">
+                  <div class="avatar liviru"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Liviru Samarawickrama</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Finance Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
+        </div>
 
-          <!-- Ravien-->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="0"
-          >
-            <div class="card-wrapper">
-              <div class="card-2 card-object card-object-hf">
-                <a class="face front ravien" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Ravien</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper ravien">
-                    <div class="avatar ravien"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Ravien Dalpatadu</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Web Team</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
+        <!-- Ravien-->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="0">
+          <div class="card-wrapper">
+            <div class="card-2 card-object card-object-hf">
+              <a class="face front ravien" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Ravien</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper ravien">
+                  <div class="avatar ravien"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Ravien Dalpatadu</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Web Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
+        </div>
 
-          <!-- kushantha -->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="300"
-          >
-            <div class="card-wrapper">
-              <div class="card-3 card-object card-object-hf">
-                <a class="face front kushantha" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Kushantha</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper kushantha">
-                    <div class="avatar kushantha"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Kushantha</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Web Team</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
+        <!-- kushantha -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="300">
+          <div class="card-wrapper">
+            <div class="card-3 card-object card-object-hf">
+              <a class="face front kushantha" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Kushantha</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper kushantha">
+                  <div class="avatar kushantha"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Kushantha</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Web Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
+        </div>
 
-          <!-- Design  and web-->
-          <div class="row">
-            <!-- Danujaya -->
-            <div
-              class="col-sm-12 col-lg-2"
-              data-aos="fade-down"
-              data-aos-delay="200"
-            >
-              <div class="card-wrapper">
-                <div class="card-3 card-object card-object-hf">
-                  <a class="face front danujaya" href="#">
-                    <div class="title-wrapper">
-                      <div class="title">Danujaya</div>
-                      <div class="subtitle">See more</div>
-                    </div></a
-                  ><a class="face back" href="#">
-                    <div class="img-wrapper danujaya">
-                      <div class="avatar danujaya"></div>
-                    </div>
-                    <div class="info-wrapper">
-                      <div class="info-title">Danujaya Liyanage</div>
-                      <ul class="info-content justify-content-center">
-                        <li class="info-content-item">
-                          <span>Web Team</span>
-                        </li>
-                      </ul>
-                    </div></a
-                  >
+        <!-- Design  and web-->
+        <!-- Danujaya -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="200">
+          <div class="card-wrapper">
+            <div class="card-3 card-object card-object-hf">
+              <a class="face front danujaya" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Danujaya</div>
+                  <div class="subtitle">See more</div>
                 </div>
-              </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper danujaya">
+                  <div class="avatar danujaya"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Danujaya Liyanage</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Web Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
+          </div>
+        </div>
 
-            <!-- venuri-->
-            <div
-              class="col-sm-12 col-lg-2"
-              data-aos="fade-down"
-              data-aos-delay="300"
-            >
-              <div class="card-wrapper">
-                <div class="card-1 card-object card-object-hf">
-                  <a class="face front venuri" href="#">
-                    <div class="title-wrapper">
-                      <div class="title">Venuri</div>
-                      <div class="subtitle">See more</div>
-                    </div></a
-                  ><a class="face back" href="#">
-                    <div class="img-wrapper venuri">
-                      <div class="avatar venuri"></div>
-                    </div>
-                    <div class="info-wrapper">
-                      <div class="info-title">Venuri</div>
-                      <ul class="info-content justify-content-center">
-                        <li class="info-content-item">
-                          <span>Marketing Team</span>
-                        </li>
-                      </ul>
-                    </div></a
-                  >
+        <!-- venuri-->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="300">
+          <div class="card-wrapper">
+            <div class="card-1 card-object card-object-hf">
+              <a class="face front venuri" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Venuri</div>
+                  <div class="subtitle">See more</div>
                 </div>
-              </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper venuri">
+                  <div class="avatar venuri"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Venuri</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Marketing Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
+          </div>
+        </div>
 
-            <!-- dilan -->
-            <div
-              class="col-sm-12 col-lg-2"
-              data-aos="fade-down"
-              data-aos-delay="400"
-            >
-              <div class="card-wrapper">
-                <div class="card-2 card-object card-object-hf">
-                  <a class="face front dilan" href="#">
-                    <div class="title-wrapper">
-                      <div class="title">Dilan</div>
-                      <div class="subtitle">See more</div>
-                    </div></a
-                  ><a class="face back" href="#">
-                    <div class="img-wrapper dilan">
-                      <div class="avatar dilan"></div>
-                    </div>
-                    <div class="info-wrapper">
-                      <div class="info-title">Dilan Thenuwara</div>
-                      <ul class="info-content justify-content-center">
-                        <li class="info-content-item">
-                          <span>Marketing Team</span>
-                        </li>
-                      </ul>
-                    </div></a
-                  >
+        <!-- dilan -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="400">
+          <div class="card-wrapper">
+            <div class="card-2 card-object card-object-hf">
+              <a class="face front dilan" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Dilan</div>
+                  <div class="subtitle">See more</div>
                 </div>
-              </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper dilan">
+                  <div class="avatar dilan"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Dilan Thenuwara</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Marketing Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
+          </div>
+        </div>
 
-            <!-- jasitharan -->
-            <div
-              class="col-sm-12 col-lg-2"
-              data-aos="fade-down"
-              data-aos-delay="100"
-            >
-              <div class="card-wrapper">
-                <div class="card-3 card-object card-object-hf">
-                  <a class="face front jasitharan" href="#">
-                    <div class="title-wrapper">
-                      <div class="title">Jasitharan</div>
-                      <div class="subtitle">See more</div>
-                    </div></a
-                  ><a class="face back" href="#">
-                    <div class="img-wrapper jasitharan">
-                      <div class="avatar jasitharan"></div>
-                    </div>
-                    <div class="info-wrapper">
-                      <div class="info-title">Jasitharan</div>
-                      <ul class="info-content justify-content-center">
-                        <li class="info-content-item">
-                          <span>Marketing Team</span>
-                        </li>
-                      </ul>
-                    </div></a
-                  >
+        <!-- jasitharan -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="100">
+          <div class="card-wrapper">
+            <div class="card-3 card-object card-object-hf">
+              <a class="face front jasitharan" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Jasitharan</div>
+                  <div class="subtitle">See more</div>
                 </div>
-              </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper jasitharan">
+                  <div class="avatar jasitharan"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Jasitharan</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Marketing Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
+          </div>
+        </div>
 
-            <!-- kaveesha -->
-            <div
-              class="col-sm-12 col-lg-2"
-              data-aos="fade-down"
-              data-aos-delay="500"
-            >
-              <div class="card-wrapper">
-                <div class="card-3 card-object card-object-hf">
-                  <a class="face front kaveesha" href="#">
-                    <div class="title-wrapper">
-                      <div class="title">Kaveesha</div>
-                      <div class="subtitle">See more</div>
-                    </div></a
-                  ><a class="face back" href="#">
-                    <div class="img-wrapper kaveesha">
-                      <div class="avatar kaveesha"></div>
-                    </div>
-                    <div class="info-wrapper">
-                      <div class="info-title">Kaveesha Hettige</div>
-                      <ul class="info-content justify-content-center">
-                        <li class="info-content-item">
-                          <span>Marketing Team</span>
-                        </li>
-                      </ul>
-                    </div></a
-                  >
+        <!-- kaveesha -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="500">
+          <div class="card-wrapper">
+            <div class="card-3 card-object card-object-hf">
+              <a class="face front kaveesha" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Kaveesha</div>
+                  <div class="subtitle">See more</div>
                 </div>
-              </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper kaveesha">
+                  <div class="avatar kaveesha"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Kaveesha Hettige</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Marketing Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
+          </div>
+        </div>
 
-            <!-- waruna -->
-            <div
-              class="col-sm-12 col-lg-2"
-              data-aos="fade-down"
-              data-aos-delay="0"
-            >
-              <div class="card-wrapper">
-                <div class="card-3 card-object card-object-hf">
-                  <a class="face front waruna" href="#">
-                    <div class="title-wrapper">
-                      <div class="title">Waruna</div>
-                      <div class="subtitle">See more</div>
-                    </div></a
-                  ><a class="face back" href="#">
-                    <div class="img-wrapper waruna">
-                      <div class="avatar waruna"></div>
-                    </div>
-                    <div class="info-wrapper">
-                      <div class="info-title">Waruna Parakrama</div>
-                      <ul class="info-content justify-content-center">
-                        <li class="info-content-item">
-                          <span>Design Team</span>
-                        </li>
-                      </ul>
-                    </div></a
-                  >
+        <!-- waruna -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="0">
+          <div class="card-wrapper">
+            <div class="card-3 card-object card-object-hf">
+              <a class="face front waruna" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Waruna</div>
+                  <div class="subtitle">See more</div>
                 </div>
-              </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper waruna">
+                  <div class="avatar waruna"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Waruna Parakrama</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Design Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
         </div>
 
         <!-- marketing -->
-        <div class="row pb-5">
-          <!-- nisura -->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="400"
-          >
-            <div class="card-wrapper">
-              <div class="card-3 card-object card-object-hf">
-                <a class="face front nisura" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Nisura</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper nisura">
-                    <div class="avatar nisura"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Nisura Indisa</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Design Team</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
+        <!-- nisura -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="400">
+          <div class="card-wrapper">
+            <div class="card-3 card-object card-object-hf">
+              <a class="face front nisura" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Nisura</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper nisura">
+                  <div class="avatar nisura"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Nisura Indisa</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Design Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
+        </div>
 
-          <!-- vimukthi-->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="0"
-          >
-            <div class="card-wrapper">
-              <div class="card-1 card-object card-object-hf">
-                <a class="face front vimukthi" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Vimukthi</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper vimukthi">
-                    <div class="avatar vimukthi"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Vimukthi Amaraweera</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Content Team</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
+        <!-- vimukthi-->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="0">
+          <div class="card-wrapper">
+            <div class="card-1 card-object card-object-hf">
+              <a class="face front vimukthi" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Vimukthi</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper vimukthi">
+                  <div class="avatar vimukthi"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Vimukthi Amaraweera</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Content Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
+        </div>
 
-          <!-- himasha -->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="300"
-          >
-            <div class="card-wrapper">
-              <div class="card-3 card-object card-object-hf">
-                <a class="face front himasha" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Himasha</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper himasha">
-                    <div class="avatar himasha"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Himasha Senevirathne</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Content Team</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
+        <!-- himasha -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="300">
+          <div class="card-wrapper">
+            <div class="card-3 card-object card-object-hf">
+              <a class="face front himasha" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Himasha</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper himasha">
+                  <div class="avatar himasha"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Himasha Senevirathne</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Content Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
+        </div>
 
-          <!-- Achchu-->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="100"
-          >
-            <div class="card-wrapper">
-              <div class="card-1 card-object card-object-hf">
-                <a class="face front achchu" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Achchuthan</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper achchu">
-                    <div class="avatar achchu"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Achchuthan</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Content Team</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
+        <!-- Achchu-->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="100">
+          <div class="card-wrapper">
+            <div class="card-1 card-object card-object-hf">
+              <a class="face front achchu" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Achchuthan</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper achchu">
+                  <div class="avatar achchu"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Achchuthan</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Content Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
-          <!-- Fathima zahra -->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="500"
-          >
-            <div class="card-wrapper">
-              <div class="card-2 card-object card-object-hf">
-                <a class="face front zahara" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Fathima</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper zahara">
-                    <div class="avatar zahara"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Fathima Zahra</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Content Team</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
+        </div>
+        <!-- Fathima zahra -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="500">
+          <div class="card-wrapper">
+            <div class="card-2 card-object card-object-hf">
+              <a class="face front zahara" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Fathima</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper zahara">
+                  <div class="avatar zahara"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Fathima Zahra</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Content Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
-          <!-- Pabasara -->
-          <div
-            class="col-sm-12 col-lg-2"
-            data-aos="fade-down"
-            data-aos-delay="200"
-          >
-            <div class="card-wrapper">
-              <div class="card-2 card-object card-object-hf">
-                <a class="face front pabasara" href="#">
-                  <div class="title-wrapper">
-                    <div class="title">Pabasara</div>
-                    <div class="subtitle">See more</div>
-                  </div></a
-                ><a class="face back" href="#">
-                  <div class="img-wrapper pabasara">
-                    <div class="avatar pabasara"></div>
-                  </div>
-                  <div class="info-wrapper">
-                    <div class="info-title">Pabasara</div>
-                    <ul class="info-content justify-content-center">
-                      <li class="info-content-item">
-                        <span>Content Team</span>
-                      </li>
-                    </ul>
-                  </div></a
-                >
-              </div>
+        </div>
+        <!-- Pabasara -->
+        <div class="col-sm-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="200">
+          <div class="card-wrapper">
+            <div class="card-2 card-object card-object-hf">
+              <a class="face front pabasara" href="#">
+                <div class="title-wrapper">
+                  <div class="title">Pabasara</div>
+                  <div class="subtitle">See more</div>
+                </div>
+              </a><a class="face back" href="#">
+                <div class="img-wrapper pabasara">
+                  <div class="avatar pabasara"></div>
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-title">Pabasara</div>
+                  <ul class="info-content justify-content-center">
+                    <li class="info-content-item">
+                      <span>Content Team</span>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Contact-->
-    <section class="" id="contact">
-      <div class="container-fluid">
-        <div class="row">
-          <div
-            class="col-sm-12 text-center topic py-5 text-50"
-            data-aos="fade-up"
-          >
-            <h1 class="oc-heading">Contact Us</h1>
-          </div>
-        </div>
-
-
-        <div class="row py-0 bg-black">
-
-              <div class="col-lg-3 mb-5 card justify-content-center" data-aos="fade-up">
-                <div class="d-flex  text-center flex-column text-white">
-                  <h2>Abdullah Jasmin</h2>
-                  <p><i>Editor</i></p>
-                  <a href="mailto: abdullah.rotarac3220@gmail.com" class="link pb-3 text-white">
-                    <span class="icon">
-                      <svg
-                        viewBox="0 0 20 20"
-                        height="20"
-                        width="20"
-                        xmlns="http://www.w3.org/2000/svg"
-                        data-name="20"
-                        id="_20"
-                        fill="#fff"
-                      >
-                        <path
-                          transform="translate(1.25 3.75)"
-                          d="M16.25,12.5h-15A1.252,1.252,0,0,1,0,11.25v-10A1.252,1.252,0,0,1,1.25,0h15A1.251,1.251,0,0,1,17.5,1.25v10A1.251,1.251,0,0,1,16.25,12.5ZM1.25,1.819V11.25h15V1.819L9.106,6.763a.626.626,0,0,1-.713,0ZM2.625,1.25,8.75,5.487,14.875,1.25Z"
-                          id="Fill"
-                        ></path>
-                      </svg>
-                    </span>
-                    
-                  </a>
-
-                  <a href="tel: 0775212686" class="link pb-3 text-white">
-                    <span class="icon">
-                      <svg
-                        viewBox="0 0 20 20"
-                        height="20"
-                        width="20"
-                        xmlns="http://www.w3.org/2000/svg"
-                        data-name="20"
-                        id="_20"
-                        fill="#fff"
-                      >
-                        <path
-                          transform="translate(1.869 1.875)"
-                          d="M14.381,16.25h-.106C2,15.544.249,5.179.006,2.019A1.874,1.874,0,0,1,1.731,0H5.175A1.243,1.243,0,0,1,6.337.787l.95,2.337a1.247,1.247,0,0,1-.275,1.35L5.681,5.818a5.875,5.875,0,0,0,4.738,4.75l1.356-1.344a1.25,1.25,0,0,1,1.356-.257l2.356.944a1.245,1.245,0,0,1,.769,1.163v3.3A1.877,1.877,0,0,1,14.381,16.25Zm-12.5-15a.625.625,0,0,0-.625.625v.05C1.545,5.648,3.4,14.375,14.343,15h.038a.625.625,0,0,0,.625-.589V11.075l-2.356-.944-1.794,1.781-.3-.038A6.733,6.733,0,0,1,5.429,8.553,8.171,8.171,0,0,1,4.381,5.7l-.038-.3L6.118,3.606,5.181,1.25Z"
-                          id="Fill"
-                        ></path>
-                      </svg>
-                    </span>
-                    </a>
-
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-5 card justify-content-center" data-aos="fade-up">
-                <div class="d-flex  text-center flex-column text-white">
-                  <h2>Shawn Rodrigo</h2>
-                  <p><i>Digital Communications Director</i></p>
-                  <a href="mailto: shawn.rotaract@gmail.com" class="link pb-3 text-white">
-                    <span class="icon">
-                      <svg
-                        viewBox="0 0 20 20"
-                        height="20"
-                        width="20"
-                        xmlns="http://www.w3.org/2000/svg"
-                        data-name="20"
-                        id="_20"
-                        fill="#fff"
-                      >
-                        <path
-                          transform="translate(1.25 3.75)"
-                          d="M16.25,12.5h-15A1.252,1.252,0,0,1,0,11.25v-10A1.252,1.252,0,0,1,1.25,0h15A1.251,1.251,0,0,1,17.5,1.25v10A1.251,1.251,0,0,1,16.25,12.5ZM1.25,1.819V11.25h15V1.819L9.106,6.763a.626.626,0,0,1-.713,0ZM2.625,1.25,8.75,5.487,14.875,1.25Z"
-                          id="Fill"
-                        ></path>
-                      </svg>
-                    </span>
-                    
-                  </a>
-
-                  <a href="tel: 0775212686" class="link pb-3 text-white">
-                    <span class="icon">
-                      <svg
-                        viewBox="0 0 20 20"
-                        height="20"
-                        width="20"
-                        xmlns="http://www.w3.org/2000/svg"
-                        data-name="20"
-                        id="_20"
-                        fill="#fff"
-                      >
-                        <path
-                          transform="translate(1.869 1.875)"
-                          d="M14.381,16.25h-.106C2,15.544.249,5.179.006,2.019A1.874,1.874,0,0,1,1.731,0H5.175A1.243,1.243,0,0,1,6.337.787l.95,2.337a1.247,1.247,0,0,1-.275,1.35L5.681,5.818a5.875,5.875,0,0,0,4.738,4.75l1.356-1.344a1.25,1.25,0,0,1,1.356-.257l2.356.944a1.245,1.245,0,0,1,.769,1.163v3.3A1.877,1.877,0,0,1,14.381,16.25Zm-12.5-15a.625.625,0,0,0-.625.625v.05C1.545,5.648,3.4,14.375,14.343,15h.038a.625.625,0,0,0,.625-.589V11.075l-2.356-.944-1.794,1.781-.3-.038A6.733,6.733,0,0,1,5.429,8.553,8.171,8.171,0,0,1,4.381,5.7l-.038-.3L6.118,3.606,5.181,1.25Z"
-                          id="Fill"
-                        ></path>
-                      </svg>
-                    </span>
-                    </a>
-
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-5 card justify-content-center" data-aos="fade-up">
-                <div class="d-flex  text-center flex-column text-white">
-                  <h2>Vinupa Thenuka</h2>
-                  <p><i>Project Co-Chair</i></p>
-                  <a href="mailto: vinupa.rotaract3220@gmail.com" class="link pb-3 text-white">
-                    <span class="icon">
-                      <svg
-                        viewBox="0 0 20 20"
-                        height="20"
-                        width="20"
-                        xmlns="http://www.w3.org/2000/svg"
-                        data-name="20"
-                        id="_20"
-                        fill="#fff"
-                      >
-                        <path
-                          transform="translate(1.25 3.75)"
-                          d="M16.25,12.5h-15A1.252,1.252,0,0,1,0,11.25v-10A1.252,1.252,0,0,1,1.25,0h15A1.251,1.251,0,0,1,17.5,1.25v10A1.251,1.251,0,0,1,16.25,12.5ZM1.25,1.819V11.25h15V1.819L9.106,6.763a.626.626,0,0,1-.713,0ZM2.625,1.25,8.75,5.487,14.875,1.25Z"
-                          id="Fill"
-                        ></path>
-                      </svg>
-                    </span>
-                    
-                  </a>
-
-                  <a href="tel: 0770605407" class="link pb-3 text-white">
-                    <span class="icon">
-                      <svg
-                        viewBox="0 0 20 20"
-                        height="20"
-                        width="20"
-                        xmlns="http://www.w3.org/2000/svg"
-                        data-name="20"
-                        id="_20"
-                        fill="#fff"
-                      >
-                        <path
-                          transform="translate(1.869 1.875)"
-                          d="M14.381,16.25h-.106C2,15.544.249,5.179.006,2.019A1.874,1.874,0,0,1,1.731,0H5.175A1.243,1.243,0,0,1,6.337.787l.95,2.337a1.247,1.247,0,0,1-.275,1.35L5.681,5.818a5.875,5.875,0,0,0,4.738,4.75l1.356-1.344a1.25,1.25,0,0,1,1.356-.257l2.356.944a1.245,1.245,0,0,1,.769,1.163v3.3A1.877,1.877,0,0,1,14.381,16.25Zm-12.5-15a.625.625,0,0,0-.625.625v.05C1.545,5.648,3.4,14.375,14.343,15h.038a.625.625,0,0,0,.625-.589V11.075l-2.356-.944-1.794,1.781-.3-.038A6.733,6.733,0,0,1,5.429,8.553,8.171,8.171,0,0,1,4.381,5.7l-.038-.3L6.118,3.606,5.181,1.25Z"
-                          id="Fill"
-                        ></path>
-                      </svg>
-                    </span>
-                    </a>
-
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-5 card justify-content-center" data-aos="fade-up">
-                <div class="d-flex  text-center flex-column text-white">
-                  <h2>Dewmini Liyanawatte</h2>
-                  <p><i>Project Co-Chair</i></p>
-                  <a href="mailto: dliyanawatte.rotaract3220@gmail.com" class="link pb-3 text-white">
-                    <span class="icon">
-                      <svg
-                        viewBox="0 0 20 20"
-                        height="20"
-                        width="20"
-                        xmlns="http://www.w3.org/2000/svg"
-                        data-name="20"
-                        id="_20"
-                        fill="#fff"
-                      >
-                        <path
-                          transform="translate(1.25 3.75)"
-                          d="M16.25,12.5h-15A1.252,1.252,0,0,1,0,11.25v-10A1.252,1.252,0,0,1,1.25,0h15A1.251,1.251,0,0,1,17.5,1.25v10A1.251,1.251,0,0,1,16.25,12.5ZM1.25,1.819V11.25h15V1.819L9.106,6.763a.626.626,0,0,1-.713,0ZM2.625,1.25,8.75,5.487,14.875,1.25Z"
-                          id="Fill"
-                        ></path>
-                      </svg>
-                    </span>
-                    
-                  </a>
-
-                  <a href="tel: 0766980204" class="link pb-3 text-white">
-                    <span class="icon">
-                      <svg
-                        viewBox="0 0 20 20"
-                        height="20"
-                        width="20"
-                        xmlns="http://www.w3.org/2000/svg"
-                        data-name="20"
-                        id="_20"
-                        fill="#fff"
-                      >
-                        <path
-                          transform="translate(1.869 1.875)"
-                          d="M14.381,16.25h-.106C2,15.544.249,5.179.006,2.019A1.874,1.874,0,0,1,1.731,0H5.175A1.243,1.243,0,0,1,6.337.787l.95,2.337a1.247,1.247,0,0,1-.275,1.35L5.681,5.818a5.875,5.875,0,0,0,4.738,4.75l1.356-1.344a1.25,1.25,0,0,1,1.356-.257l2.356.944a1.245,1.245,0,0,1,.769,1.163v3.3A1.877,1.877,0,0,1,14.381,16.25Zm-12.5-15a.625.625,0,0,0-.625.625v.05C1.545,5.648,3.4,14.375,14.343,15h.038a.625.625,0,0,0,.625-.589V11.075l-2.356-.944-1.794,1.781-.3-.038A6.733,6.733,0,0,1,5.429,8.553,8.171,8.171,0,0,1,4.381,5.7l-.038-.3L6.118,3.606,5.181,1.25Z"
-                          id="Fill"
-                        ></path>
-                      </svg>
-                    </span>
-                    </a>
-
-                </div>
-              </div>
-
-              
-              
+  <!-- Contact-->
+  <section class="contact-section" id="contact">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 text-center topic py-5 text-50" data-aos="fade-up">
+          <h1 class="oc-heading">Contact Us</h1>
         </div>
       </div>
-    </section>
-    <!-- Footer-->
-    <section class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="second2">
-              <a href="https://www.linkedin.com/company/rotaractucsc/" target="_blank" >
-                <svg class="rounded-5" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" height="30px" width="30px" fill="#fff" viewBox="0 0 24 24" id="linkedin"><path d="M20.47,2H3.53A1.45,1.45,0,0,0,2.06,3.43V20.57A1.45,1.45,0,0,0,3.53,22H20.47a1.45,1.45,0,0,0,1.47-1.43V3.43A1.45,1.45,0,0,0,20.47,2ZM8.09,18.74h-3v-9h3ZM6.59,8.48h0a1.56,1.56,0,1,1,0-3.12,1.57,1.57,0,1,1,0,3.12ZM18.91,18.74h-3V13.91c0-1.21-.43-2-1.52-2A1.65,1.65,0,0,0,12.85,13a2,2,0,0,0-.1.73v5h-3s0-8.18,0-9h3V11A3,3,0,0,1,15.46,9.5c2,0,3.45,1.29,3.45,4.06Z"></path></svg>
+
+      <div class="row py-0 bg-black">
+        <!-- abdulla-->
+        <!-- <div class="col-lg-3 my-5" data-aos="fade-up">
+                <div class="card">
+                  <div class="card-top-part">
+                    <div class="left-part">
+                      <div class="user-name">
+                        <p class="name">Abdullah Jasmin</p>
+                      </div>
+                      <div class="user-position">
+                        <p class="position">Editor</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-bottom-part">
+                    <div class="bottom-part left">
+                      <a href="mailto: abdullah.rotaract3220@gmail.com" class="link">
+                        <span class="icon">
+                          <svg
+                            viewBox="0 0 20 20"
+                            height="20"
+                            width="20"
+                            xmlns="http://www.w3.org/2000/svg"
+                            data-name="20"
+                            id="_20"
+                            fill="#fff"
+                          >
+                            <path
+                              transform="translate(1.25 3.75)"
+                              d="M16.25,12.5h-15A1.252,1.252,0,0,1,0,11.25v-10A1.252,1.252,0,0,1,1.25,0h15A1.251,1.251,0,0,1,17.5,1.25v10A1.251,1.251,0,0,1,16.25,12.5ZM1.25,1.819V11.25h15V1.819L9.106,6.763a.626.626,0,0,1-.713,0ZM2.625,1.25,8.75,5.487,14.875,1.25Z"
+                              id="Fill"
+                            ></path>
+                          </svg>
+                        </span>
+                        abdullah.rotaract3220@gmail.com
+                      </a>
+                    </div>
+                    <div class="bottom-part right">
+                      <a href="tel: 0711281441" class="link">
+                        <span class="icon">
+                          <svg
+                            viewBox="0 0 20 20"
+                            height="20"
+                            width="20"
+                            xmlns="http://www.w3.org/2000/svg"
+                            data-name="20"
+                            id="_20"
+                            fill="#fff"
+                          >
+                            <path
+                              transform="translate(1.869 1.875)"
+                              d="M14.381,16.25h-.106C2,15.544.249,5.179.006,2.019A1.874,1.874,0,0,1,1.731,0H5.175A1.243,1.243,0,0,1,6.337.787l.95,2.337a1.247,1.247,0,0,1-.275,1.35L5.681,5.818a5.875,5.875,0,0,0,4.738,4.75l1.356-1.344a1.25,1.25,0,0,1,1.356-.257l2.356.944a1.245,1.245,0,0,1,.769,1.163v3.3A1.877,1.877,0,0,1,14.381,16.25Zm-12.5-15a.625.625,0,0,0-.625.625v.05C1.545,5.648,3.4,14.375,14.343,15h.038a.625.625,0,0,0,.625-.589V11.075l-2.356-.944-1.794,1.781-.3-.038A6.733,6.733,0,0,1,5.429,8.553,8.171,8.171,0,0,1,4.381,5.7l-.038-.3L6.118,3.606,5.181,1.25Z"
+                              id="Fill"
+                            ></path>
+                          </svg>
+                        </span>
+                        071 128 1441
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+        <!-- shawn-->
+        <!-- <div class="col-lg-3 my-5" data-aos="fade-up">
+                <div class="card">
+                  <div class="card-top-part">
+                    <div class="left-part">
+                      <div class="user-name">
+                        <p class="name">Shawn Rodrigo</p>
+                      </div>
+                      <div class="user-position">
+                        <p class="position">Digital Communications Director</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-bottom-part">
+                    <div class="bottom-part left">
+                      <a href="mailto: shawn.rotaract@gmail.com" class="link">
+                        <span class="icon">
+                          <svg
+                            viewBox="0 0 20 20"
+                            height="20"
+                            width="20"
+                            xmlns="http://www.w3.org/2000/svg"
+                            data-name="20"
+                            id="_20"
+                            fill="#fff"
+                          >
+                            <path
+                              transform="translate(1.25 3.75)"
+                              d="M16.25,12.5h-15A1.252,1.252,0,0,1,0,11.25v-10A1.252,1.252,0,0,1,1.25,0h15A1.251,1.251,0,0,1,17.5,1.25v10A1.251,1.251,0,0,1,16.25,12.5ZM1.25,1.819V11.25h15V1.819L9.106,6.763a.626.626,0,0,1-.713,0ZM2.625,1.25,8.75,5.487,14.875,1.25Z"
+                              id="Fill"
+                            ></path>
+                          </svg>
+                        </span>
+                        shawn.rotaract@gmail.com
+                      </a>
+                    </div>
+                    <div class="bottom-part right">
+                      <a href="tel: 0775212686" class="link">
+                        <span class="icon">
+                          <svg
+                            viewBox="0 0 20 20"
+                            height="20"
+                            width="20"
+                            xmlns="http://www.w3.org/2000/svg"
+                            data-name="20"
+                            id="_20"
+                            fill="#fff"
+                          >
+                            <path
+                              transform="translate(1.869 1.875)"
+                              d="M14.381,16.25h-.106C2,15.544.249,5.179.006,2.019A1.874,1.874,0,0,1,1.731,0H5.175A1.243,1.243,0,0,1,6.337.787l.95,2.337a1.247,1.247,0,0,1-.275,1.35L5.681,5.818a5.875,5.875,0,0,0,4.738,4.75l1.356-1.344a1.25,1.25,0,0,1,1.356-.257l2.356.944a1.245,1.245,0,0,1,.769,1.163v3.3A1.877,1.877,0,0,1,14.381,16.25Zm-12.5-15a.625.625,0,0,0-.625.625v.05C1.545,5.648,3.4,14.375,14.343,15h.038a.625.625,0,0,0,.625-.589V11.075l-2.356-.944-1.794,1.781-.3-.038A6.733,6.733,0,0,1,5.429,8.553,8.171,8.171,0,0,1,4.381,5.7l-.038-.3L6.118,3.606,5.181,1.25Z"
+                              id="Fill"
+                            ></path>
+                          </svg>
+                        </span>
+                        077 521 2686
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+        <!-- vinupa-->
+        <!-- <div class="col-lg-3 my-5" data-aos="fade-up">
+                <div class="card">
+                  <div class="card-top-part">
+                    <div class="left-part">
+                      <div class="user-name">
+                        <p class="name">Vinupa Thenuka</p>
+                      </div>
+                      <div class="user-position">
+                        <p class="position">Project Co-Chair</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-bottom-part">
+                    <div class="bottom-part left">
+                      <a href="mailto: vinupa.rotaract3220@gmail.com" class="link">
+                        <span class="icon">
+                          <svg
+                            viewBox="0 0 20 20"
+                            height="20"
+                            width="20"
+                            xmlns="http://www.w3.org/2000/svg"
+                            data-name="20"
+                            id="_20"
+                            fill="#fff"
+                          >
+                            <path
+                              transform="translate(1.25 3.75)"
+                              d="M16.25,12.5h-15A1.252,1.252,0,0,1,0,11.25v-10A1.252,1.252,0,0,1,1.25,0h15A1.251,1.251,0,0,1,17.5,1.25v10A1.251,1.251,0,0,1,16.25,12.5ZM1.25,1.819V11.25h15V1.819L9.106,6.763a.626.626,0,0,1-.713,0ZM2.625,1.25,8.75,5.487,14.875,1.25Z"
+                              id="Fill"
+                            ></path>
+                          </svg>
+                        </span>
+                        vinupa.rotaract3220@gmail.com
+                      </a>
+                    </div>
+                    <div class="bottom-part right">
+                      <a href="tel: 0770605407" class="link">
+                        <span class="icon">
+                          <svg
+                            viewBox="0 0 20 20"
+                            height="20"
+                            width="20"
+                            xmlns="http://www.w3.org/2000/svg"
+                            data-name="20"
+                            id="_20"
+                            fill="#fff"
+                          >
+                            <path
+                              transform="translate(1.869 1.875)"
+                              d="M14.381,16.25h-.106C2,15.544.249,5.179.006,2.019A1.874,1.874,0,0,1,1.731,0H5.175A1.243,1.243,0,0,1,6.337.787l.95,2.337a1.247,1.247,0,0,1-.275,1.35L5.681,5.818a5.875,5.875,0,0,0,4.738,4.75l1.356-1.344a1.25,1.25,0,0,1,1.356-.257l2.356.944a1.245,1.245,0,0,1,.769,1.163v3.3A1.877,1.877,0,0,1,14.381,16.25Zm-12.5-15a.625.625,0,0,0-.625.625v.05C1.545,5.648,3.4,14.375,14.343,15h.038a.625.625,0,0,0,.625-.589V11.075l-2.356-.944-1.794,1.781-.3-.038A6.733,6.733,0,0,1,5.429,8.553,8.171,8.171,0,0,1,4.381,5.7l-.038-.3L6.118,3.606,5.181,1.25Z"
+                              id="Fill"
+                            ></path>
+                          </svg>
+                        </span>
+                        077 060 5407
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+        <!-- dewmini-->
+        <!-- <div class="col-lg-3 my-5" data-aos="fade-up">
+                <div class="card">
+                  <div class="card-top-part">
+                    <div class="left-part">
+                      <div class="user-name">
+                        <p class="name">Dewmini Liyanawatte</p>
+                      </div>
+                      <div class="user-position">
+                        <p class="position">Project Co-Chair</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-bottom-part">
+                    <div class="bottom-part left">
+                      <a href="mailto: dliyanawatte.rotaract3220@gmail.com" class="link">
+                        <span class="icon">
+                          <svg
+                            viewBox="0 0 20 20"
+                            height="20"
+                            width="20"
+                            xmlns="http://www.w3.org/2000/svg"
+                            data-name="20"
+                            id="_20"
+                            fill="#fff"
+                          >
+                            <path
+                              transform="translate(1.25 3.75)"
+                              d="M16.25,12.5h-15A1.252,1.252,0,0,1,0,11.25v-10A1.252,1.252,0,0,1,1.25,0h15A1.251,1.251,0,0,1,17.5,1.25v10A1.251,1.251,0,0,1,16.25,12.5ZM1.25,1.819V11.25h15V1.819L9.106,6.763a.626.626,0,0,1-.713,0ZM2.625,1.25,8.75,5.487,14.875,1.25Z"
+                              id="Fill"
+                            ></path>
+                          </svg>
+                        </span>
+                        
+                        dliyanawatte.rotaract3220@gmail.com
+                      </a>
+                    </div>
+                    <div class="bottom-part right">
+                      <a href="tel: 0766980204" class="link">
+                        <span class="icon">
+                          <svg
+                            viewBox="0 0 20 20"
+                            height="20"
+                            width="20"
+                            xmlns="http://www.w3.org/2000/svg"
+                            data-name="20"
+                            id="_20"
+                            fill="#fff"
+                          >
+                            <path
+                              transform="translate(1.869 1.875)"
+                              d="M14.381,16.25h-.106C2,15.544.249,5.179.006,2.019A1.874,1.874,0,0,1,1.731,0H5.175A1.243,1.243,0,0,1,6.337.787l.95,2.337a1.247,1.247,0,0,1-.275,1.35L5.681,5.818a5.875,5.875,0,0,0,4.738,4.75l1.356-1.344a1.25,1.25,0,0,1,1.356-.257l2.356.944a1.245,1.245,0,0,1,.769,1.163v3.3A1.877,1.877,0,0,1,14.381,16.25Zm-12.5-15a.625.625,0,0,0-.625.625v.05C1.545,5.648,3.4,14.375,14.343,15h.038a.625.625,0,0,0,.625-.589V11.075l-2.356-.944-1.794,1.781-.3-.038A6.733,6.733,0,0,1,5.429,8.553,8.171,8.171,0,0,1,4.381,5.7l-.038-.3L6.118,3.606,5.181,1.25Z"
+                              id="Fill"
+                            ></path>
+                          </svg>
+                        </span>
+                        076 698 0204
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+      </div>
+      <div class="row py-0 bg-black">
+
+        <div class="col-lg-3 col-md-6 mb-5 card justify-content-center" data-aos="fade-up">
+          <div class="d-flex  text-center flex-column text-white">
+            <span class="fw-normal fs-4 lh-1 text-uppercase">Abdullah Jasmin</span>
+            <span class="fw-light fs-5 pb-2 text-uppercase"><i>Editor</i></span>
+            <div class="text-center">
+              <a href="mailto: abdullah.rotaract3220@gmail.com" class="  text-white">
+                <i class="fa fa-envelope fa-2x px-1"></i></a>
               </a>
-              <a href="https://www.youtube.com/@RACUCSC" target="_blank">
-                <svg class="rounded-5" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" height="30px" width="30px" fill="#fff" viewBox="0 0 24 24" id="youtube"><path d="M23,9.71a8.5,8.5,0,0,0-.91-4.13,2.92,2.92,0,0,0-1.72-1A78.36,78.36,0,0,0,12,4.27a78.45,78.45,0,0,0-8.34.3,2.87,2.87,0,0,0-1.46.74c-.9.83-1,2.25-1.1,3.45a48.29,48.29,0,0,0,0,6.48,9.55,9.55,0,0,0,.3,2,3.14,3.14,0,0,0,.71,1.36,2.86,2.86,0,0,0,1.49.78,45.18,45.18,0,0,0,6.5.33c3.5.05,6.57,0,10.2-.28a2.88,2.88,0,0,0,1.53-.78,2.49,2.49,0,0,0,.61-1,10.58,10.58,0,0,0,.52-3.4C23,13.69,23,10.31,23,9.71ZM9.74,14.85V8.66l5.92,3.11C14,12.69,11.81,13.73,9.74,14.85Z"></path></svg></a>
-              <a href="https://www.facebook.com/RotaractUCSC/" target="_blank">
-                <svg class="rounded-5" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" height="30px" width="30px" fill="#fff" viewBox="0 0 24 24" id="facebook"><path d="M20.9,2H3.1A1.1,1.1,0,0,0,2,3.1V20.9A1.1,1.1,0,0,0,3.1,22h9.58V14.25h-2.6v-3h2.6V9a3.64,3.64,0,0,1,3.88-4,20.26,20.26,0,0,1,2.33.12v2.7H17.3c-1.26,0-1.5.6-1.5,1.47v1.93h3l-.39,3H15.8V22h5.1A1.1,1.1,0,0,0,22,20.9V3.1A1.1,1.1,0,0,0,20.9,2Z"></path></svg>
+              <a href="tel:+94771281441" class="  text-white">
+                <i class="fa fa-phone-square fa-2x px-1"></i></a>
               </a>
-              <a href="https://www.instagram.com/rac_ucsc/" target="_blank">
-                <svg class="rounded-5" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" height="30px" width="30px" fill="#fff" viewBox="0 0 24 24" id="instagram"><path d="M12,9.52A2.48,2.48,0,1,0,14.48,12,2.48,2.48,0,0,0,12,9.52Zm9.93-2.45a6.53,6.53,0,0,0-.42-2.26,4,4,0,0,0-2.32-2.32,6.53,6.53,0,0,0-2.26-.42C15.64,2,15.26,2,12,2s-3.64,0-4.93.07a6.53,6.53,0,0,0-2.26.42A4,4,0,0,0,2.49,4.81a6.53,6.53,0,0,0-.42,2.26C2,8.36,2,8.74,2,12s0,3.64.07,4.93a6.86,6.86,0,0,0,.42,2.27,3.94,3.94,0,0,0,.91,1.4,3.89,3.89,0,0,0,1.41.91,6.53,6.53,0,0,0,2.26.42C8.36,22,8.74,22,12,22s3.64,0,4.93-.07a6.53,6.53,0,0,0,2.26-.42,3.89,3.89,0,0,0,1.41-.91,3.94,3.94,0,0,0,.91-1.4,6.6,6.6,0,0,0,.42-2.27C22,15.64,22,15.26,22,12S22,8.36,21.93,7.07Zm-2.54,8A5.73,5.73,0,0,1,19,16.87,3.86,3.86,0,0,1,16.87,19a5.73,5.73,0,0,1-1.81.35c-.79,0-1,0-3.06,0s-2.27,0-3.06,0A5.73,5.73,0,0,1,7.13,19a3.51,3.51,0,0,1-1.31-.86A3.51,3.51,0,0,1,5,16.87a5.49,5.49,0,0,1-.34-1.81c0-.79,0-1,0-3.06s0-2.27,0-3.06A5.49,5.49,0,0,1,5,7.13a3.51,3.51,0,0,1,.86-1.31A3.59,3.59,0,0,1,7.13,5a5.73,5.73,0,0,1,1.81-.35h0c.79,0,1,0,3.06,0s2.27,0,3.06,0A5.73,5.73,0,0,1,16.87,5a3.51,3.51,0,0,1,1.31.86A3.51,3.51,0,0,1,19,7.13a5.73,5.73,0,0,1,.35,1.81c0,.79,0,1,0,3.06S19.42,14.27,19.39,15.06Zm-1.6-7.44a2.38,2.38,0,0,0-1.41-1.41A4,4,0,0,0,15,6c-.78,0-1,0-3,0s-2.22,0-3,0a4,4,0,0,0-1.38.26A2.38,2.38,0,0,0,6.21,7.62,4.27,4.27,0,0,0,6,9c0,.78,0,1,0,3s0,2.22,0,3a4.27,4.27,0,0,0,.26,1.38,2.38,2.38,0,0,0,1.41,1.41A4.27,4.27,0,0,0,9,18.05H9c.78,0,1,0,3,0s2.22,0,3,0a4,4,0,0,0,1.38-.26,2.38,2.38,0,0,0,1.41-1.41A4,4,0,0,0,18.05,15c0-.78,0-1,0-3s0-2.22,0-3A3.78,3.78,0,0,0,17.79,7.62ZM12,15.82A3.81,3.81,0,0,1,8.19,12h0A3.82,3.82,0,1,1,12,15.82Zm4-6.89a.9.9,0,0,1,0-1.79h0a.9.9,0,0,1,0,1.79Z"></path></svg>
-              </a>
-              <a href="mailto: snapflix@racucsc.xyz" target="_blank">
-                
-              </a>
-              </div>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-12 text-center  text-white">
-            <p class="footer-text">
-              © 2023 SnapFilx
-            </p>
+
+        <div class="col-lg-3 col-md-6 mb-5 card justify-content-center" data-aos="fade-up">
+          <div class="d-flex  text-center flex-column text-white">
+            <span class="fw-normal fs-4 lh-1 text-uppercase">Shawn Rodrigo</span>
+            <span class="fw-light fs-5 pb-2 text-uppercase"><i>DigiCom Director</i></span>
+            <div class="text-center">
+              <a href="mailto: shawn.rotaract@gmail.com" class="  text-white">
+                <i class="fa fa-envelope fa-2x px-1"></i></a>
+              </a>
+              <a href="tel:+94775212686" class="  text-white">
+                <i class="fa fa-phone-square fa-2x px-1"></i></a>
+              </a>
+            </div>
           </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-5 card justify-content-center" data-aos="fade-up">
+          <div class="d-flex  text-center flex-column text-white">
+            <span class="fw-normal fs-4 lh-1 text-uppercase">Vinupa Thenuka</span>
+            <span class="fw-light fs-5 pb-2 text-uppercase"><i>Project Co-Chair</i></span>
+            <div class="text-center">
+              <a href="mailto: vinupa.rotaract3220@gmail.com" class="  text-white">
+                <i class="fa fa-envelope fa-2x px-1"></i></a>
+              </a>
+              <a href="tel:+94770605407" class="  text-white">
+                <i class="fa fa-phone-square fa-2x px-1"></i></a>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 mb-5 card justify-content-center" data-aos="fade-up">
+          <div class="d-flex  text-center flex-column text-white">
+            <span class="fw-normal fs-4 lh-1 text-uppercase">Dewmini Liyanawatte</span>
+            <span class="fw-light fs-5 pb-2 text-uppercase"><i>Project Co-Chair</i></span>
+            <div class="text-center">
+              <a href="mailto: dliyanawatte.rotaract3220@gmail.com" class="  text-white">
+                <i class="fa fa-envelope fa-2x px-1"></i></a>
+              </a>
+              <a href="tel:+94766980204" class="  text-white">
+                <i class="fa fa-phone-square fa-2x px-1"></i></a>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
       </div>
-    </section>
-    <!-- Bootstrap core JS-->
-    <script
-      src="https://code.jquery.com/jquery-3.6.4.min.js"
-      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="./js/scripts.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/parallax-mouse@1.0.1/dist/parallax-mouse.min.js"></script>
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="./js/flipdown.js"></script>
-    <script src="./js/countdown.js"></script>
-    <script src="./js/oc.js"></script>
-    <script src="./js/hero.js"></script>
-    <script src="./js/about.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+    </div>
+  </section>
+  <!-- Footer-->
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="second2">
+            <a href="https://www.linkedin.com/company/rotaractucsc/" target="_blank">
+              <i class="fab fa-linkedin fa-2x px-2"></i></a>
+            <a href="https://www.youtube.com/@RACUCSC" target="_blank"><i class="fab fa-youtube fa-2x px-2"></i></a>
+            <a href="https://www.facebook.com/RotaractUCSC/" target="_blank"><i
+                class="fa-brands fa-square-facebook fa-2x px-2"></i></a>
+            <a href="https://www.instagram.com/rac_ucsc/" target="_blank"><i
+                class="fab fa-instagram fa-2x px-2"></i></a>
+            <a href="mailto: snapflix@racucsc.xyz" class=" ">
+              <i class="fa fa-envelope fa-2x px-1"></i></a>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center  text-white">
+          <p class="footer-text">
+            © 2023 SnapFilx
+          </p>
+        </div>
+      </div>
+  </section>
+  <!-- Bootstrap core JS-->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="./js/scripts.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/parallax-mouse@1.0.1/dist/parallax-mouse.min.js"></script>
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/gsap/gsap.min.js"></script>
+  <script src="./js/gsap/ScrollTrigger.min.js"></script>
+  <script src="./js/flipdown.js"></script>
+  <script src="./js/countdown.js"></script>
+  <script src="./js/oc.js"></script>
+  <script src="./js/contact-card.js"></script>
+  <script src="./js/hero.js"></script>
+  <script src="./js/about.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.to(".scroll-text", {
+      scrollTrigger: {
+        trigger: ".scroll-text",
+        toggleActions: "play none none none",
+        scrub: 1,
+        start: "start bottom",
+        end: "100% start",
+        // markers:true,
+      }, // start the animation when ".box" enters the viewport (once)
+      x: "-210%",
+      duration: 10,
+    });
+  </script>
+</body>
+
 </html>
