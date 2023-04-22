@@ -702,7 +702,7 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Vonique+64&display=swap");
 @font-face {
   font-family: "Vonique64";
-  src: url("../assets/fonts/Vonique64.ttf");
+  src: url("./assets/fonts/Vonique64.ttf");
 }
 .hero-logo {
   height: 10rem;
