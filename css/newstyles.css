@@ -762,6 +762,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-position: 50% 50%;
+  background-attachment: fixed;
 }
 /* oc */
 /* @font-face {

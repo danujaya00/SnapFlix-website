@@ -8,7 +8,7 @@
     let _h = window.innerHeight / 2;
     let _mouseX = e.clientX;
     let _mouseY = e.clientY;
-    let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${
+    let _depth1 = `${50 - (_mouseX - _w) * 0.03}% ${
       50 - (_mouseY - _h) * 0.01
     }%`;
     let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${
@@ -18,10 +18,44 @@
       50 - (_mouseY - _h) * 0.01
     }%`;
     let x = `${_depth3}, ${_depth2}, ${_depth1}`;
-    console.log(x);
     elem.style.backgroundPosition = x;
   }
 })();
+
+// parallax scroll effect for hero section without jquery
+//auto run 
+window.addEventListener("scroll", parallaxScroll, false);
+
+function parallaxScroll(e) {
+  // move background Position vertically when scroll for 3 layers
+  var scrolled = window.pageYOffset;
+  const parallax = document.querySelector("#parallax");
+  //scroll parallax from current mouse position
+
+  // get current background position of parallax
+  var curpos1 = parallax.style.backgroundPosition.split(" ");
+  var curpos2 = parallax.style.backgroundPosition.split(" ");
+  var curpos3 = parallax.style.backgroundPosition.split(" ");
+
+  var _scroll1 = curpos1[0] + " " + (curpos1[2].split("%")[0] - scrolled * 0.06) + "%";
+  var _scroll2 = curpos2[0] + " " + (curpos2[2].split("%")[0] - scrolled * 0.04) + "%";
+  var _scroll3 = curpos3[0] + " " + (curpos3[2].split("%")[0] - scrolled * 0.02) + "%";
+
+  console.log(_scroll1, _scroll2, _scroll3);
+
+
+
+  // var _scroll1 = "50% " + (50 - scrolled * 0.03) + "%";
+  // var _scroll2 = "50% " + (50 - scrolled * 0.02) + "%";
+  // var _scroll3 = "50% " + (50 - scrolled * 0.01) + "%";
+
+  let x = `${_scroll1}, ${_scroll2}, ${_scroll3}`; 
+    parallax.style.backgroundPosition = x;
+
+
+
+}
+
 
 
 var messenger1 = function (el) {
