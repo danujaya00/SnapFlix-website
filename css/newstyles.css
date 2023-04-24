@@ -790,6 +790,7 @@ body {
   float: left;
   position: relative;
   margin: 0;
+  width: -moz-available;
   width: -webkit-fill-available;
   height: 15rem;
   padding: 0 0 28%;
@@ -1304,6 +1305,7 @@ body {
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  transform: rotateX(0deg)      
 }
 .face.front::before {
   position: absolute;
