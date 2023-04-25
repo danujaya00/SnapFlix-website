@@ -50,20 +50,17 @@ h1,
   line-height: 1.2;
 }
 
-@media (min-width: 1200px) {
-
-  h1,
-  .h1 {
-    font-size: 2.5rem;
-  }
-}
-
 h2,
 .h2 {
   font-size: calc(1.325rem + 0.9vw);
 }
 
 @media (min-width: 1200px) {
+
+  h1,
+  .h1 {
+    font-size: 2.5rem;
+  }
 
   h2,
   .h2 {
@@ -1045,6 +1042,7 @@ html {
 /* about  */
 .topic {
   /* font-size: 13rem; */
+  padding-top: 40px;
   font-family: "Vonique64", sans-serif;
   white-space: wrap;
   width: 100%;
@@ -2544,12 +2542,16 @@ video {
 
 
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width: 992px) {
   .first {
     text-align: center;
   }
 }
 
+
+.contact .card {
+  height: 150px;
+}
 
 
 .hero-logo {
@@ -2562,6 +2564,8 @@ video {
 
 
 @media screen and (max-width: 768px) {
+
+
   .hero-logo {
     height: 6rem;
     max-width: 100vw;
@@ -2624,10 +2628,11 @@ video {
   .main-timeline .timeline:nth-child(2n) .timeline-content {
     width: 95%;
     text-align: center;
-    padding: 10px 0; 
+    padding: 10px 0;
   }
 
-  .main-timeline .timeline:nth-child(n) .date-content, .main-timeline .timeline:nth-child(2n) .date-content {
+  .main-timeline .timeline:nth-child(n) .date-content,
+  .main-timeline .timeline:nth-child(2n) .date-content {
     float: right;
   }
 
@@ -2646,7 +2651,7 @@ video {
   }
 
   .topic {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .card h2 {
@@ -2753,7 +2758,7 @@ video {
   }
 
   .face.front .title-wrapper .title {
-    font-size: 8.5vw;
+    font-size: 1.5rem;
   }
 
   .face.front .title-wrapper .subtitle {
