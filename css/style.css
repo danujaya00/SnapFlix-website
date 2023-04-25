@@ -1547,6 +1547,7 @@ video {
 
 .hero-logo {
   height: 10rem;
+  width: inherit;
 }
 
 @media screen and (max-width: 768px) {
