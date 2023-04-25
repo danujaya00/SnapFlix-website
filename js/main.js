@@ -5,7 +5,7 @@
          const navbarCollapsible = document.body.querySelector('#mainNav');
          const navbarLogo = document.body.querySelector('#navbarLogo');
 
-         if (!navbarCollapsible) { 
+         if (!navbarCollapsible) {
              return;
          }
          if (window.scrollY <= 50) {
@@ -23,20 +23,41 @@
      // Shrink the navbar when page is scrolled
      document.addEventListener('scroll', navbarShrink);
 
-     // Activate Bootstrap scrollspy on the main nav element
-     const mainNav = document.body.querySelector('#mainNav');
-     if (mainNav) {
-         new bootstrap.ScrollSpy(document.body, {
-             target: '#mainNav',
-             offset: 74,
+     //mobile menu
+     const menuBtn = document.querySelector('.navbar-toggler');
+     const menu = document.querySelector('.navbar-collapse');
+     const menuLinks = document.querySelectorAll('.navbar-collapse .nav-link');
+     const menuIcon = document.querySelector('.menu');
+     const closeIcon = document.querySelector('.close');
+     const mainMenu = document.querySelector('#mainNav');
+
+     menuBtn.addEventListener('click', () => {
+         menu.classList.toggle('collapse');
+         menuIcon.classList.toggle('d-none');
+         closeIcon.classList.toggle('d-none');
+         
+     });
+
+     menuLinks.forEach(link => {
+         link.addEventListener('click', () => {
+             menu.classList.remove('collapse');
+
+             menuIcon.classList.toggle('d-none');
+             closeIcon.classList.toggle('d-none');
          });
-     };
+     });
+
+
+
+
+
 
      // Collapse responsive navbar when toggler is visible
      const navbarToggler = document.body.querySelector('.navbar-toggler');
      const responsiveNavItems = [].slice.call(
          document.querySelectorAll('#navbarResponsive .nav-link')
      );
+
      responsiveNavItems.map(function (responsiveNavItem) {
          responsiveNavItem.addEventListener('click', () => {
              if (window.getComputedStyle(navbarToggler).display !== 'none') {
@@ -110,103 +131,102 @@
 
 
  messenger1 = function (el) {
-    "use strict";
-    let m = this;
+     "use strict";
+     let m = this;
 
-    m.init = function () {
-        m.codeletters = "snap flix<>{}   ";
-        m.message = 0;
-        m.current_length = 0;
-        m.fadeBuffer = false;
-        m.messages = [
-            "Sri lanka's First-Ever Short film Hackathon.",
-        ];
+     m.init = function () {
+         m.codeletters = "snap flix<>{}   ";
+         m.message = 0;
+         m.current_length = 0;
+         m.fadeBuffer = false;
+         m.messages = [
+             "Sri lanka's First-Ever Short film Hackathon.",
+         ];
 
-        setTimeout(m.animateIn, 500);
-    };
+         setTimeout(m.animateIn, 1000);
+     };
 
-    m.generateRandomString = function (length) {
-        let random_text = "";
-        while (random_text.length < length) {
-            random_text += m.codeletters.charAt(
-                Math.floor(Math.random() * m.codeletters.length)
-            );
-        }
+     m.generateRandomString = function (length) {
+         let random_text = "";
+         while (random_text.length < length) {
+             random_text += m.codeletters.charAt(
+                 Math.floor(Math.random() * m.codeletters.length)
+             );
+         }
 
-        return random_text;
-    };
+         return random_text;
+     };
 
-    m.animateIn = function () {
-        if (m.current_length < m.messages[m.message].length) {
-            m.current_length = m.current_length + 2;
-            if (m.current_length > m.messages[m.message].length) {
-                m.current_length = m.messages[m.message].length;
-            }
+     m.animateIn = function () {
+         if (m.current_length < m.messages[m.message].length) {
+             m.current_length = m.current_length + 2;
+             if (m.current_length > m.messages[m.message].length) {
+                 m.current_length = m.messages[m.message].length;
+             }
 
-            let message = m.generateRandomString(m.current_length);
-            document.getElementById(el).innerHTML = message;
+             let message = m.generateRandomString(m.current_length);
+             document.getElementById(el).innerHTML = message;
 
-            setTimeout(m.animateIn, 20);
-        } else {
-            setTimeout(m.animateFadeBuffer, 20);
-        }
-    };
+             setTimeout(m.animateIn, 20);
+         } else {
+             setTimeout(m.animateFadeBuffer, 20);
+         }
+     };
 
-    m.animateFadeBuffer = function () {
-        if (m.fadeBuffer === false) {
-            m.fadeBuffer = [];
-            for (let i = 0; i < m.messages[m.message].length; i++) {
-                m.fadeBuffer.push({
-                    c: Math.floor(Math.random() * 12) + 1,
-                    l: m.messages[m.message].charAt(i),
-                });
-            }
-        }
+     m.animateFadeBuffer = function () {
+         if (m.fadeBuffer === false) {
+             m.fadeBuffer = [];
+             for (let i = 0; i < m.messages[m.message].length; i++) {
+                 m.fadeBuffer.push({
+                     c: Math.floor(Math.random() * 12) + 1,
+                     l: m.messages[m.message].charAt(i),
+                 });
+             }
+         }
 
-        let do_cycles = false;
-        let message = "";
+         let do_cycles = false;
+         let message = "";
 
-        for (let i = 0; i < m.fadeBuffer.length; i++) {
-            let fader = m.fadeBuffer[i];
-            if (fader.c > 0) {
-                do_cycles = true;
-                fader.c--;
-                message += m.codeletters.charAt(
-                    Math.floor(Math.random() * m.codeletters.length)
-                );
-            } else {
-                message += fader.l;
-            }
-        }
+         for (let i = 0; i < m.fadeBuffer.length; i++) {
+             let fader = m.fadeBuffer[i];
+             if (fader.c > 0) {
+                 do_cycles = true;
+                 fader.c--;
+                 message += m.codeletters.charAt(
+                     Math.floor(Math.random() * m.codeletters.length)
+                 );
+             } else {
+                 message += fader.l;
+             }
+         }
 
-        // document.querySelector(el).html(message);
-        document.getElementById(el).innerHTML = message;
+         // document.querySelector(el).html(message);
+         document.getElementById(el).innerHTML = message;
 
 
-        if (do_cycles === true) {
-            setTimeout(m.animateFadeBuffer, 100);
-        } else {
-            setTimeout(m.cycleText, 8000);
-        }
-    };
+         if (do_cycles === true) {
+             setTimeout(m.animateFadeBuffer, 100);
+         } else {
+             setTimeout(m.cycleText, 80000);
+         }
+     };
 
-    m.cycleText = function () {
-        m.message = m.message + 1;
-        if (m.message >= m.messages.length) {
-            m.message = 0;
-        }
+     m.cycleText = function () {
+         m.message = m.message + 1;
+         if (m.message >= m.messages.length) {
+             m.message = 0;
+         }
 
-        m.current_length = 0;
-        m.fadeBuffer = false;
-        document.querySelector(el).html("");
+         m.current_length = 0;
+         m.fadeBuffer = false;
 
-        setTimeout(m.animateIn, 100);
-    };
+         setTimeout(m.animateIn, 200);
+     };
 
-    m.init();
-};
- 
-messenger1 = new messenger1('messenger1');
+     m.init();
+ };
+
+ messenger1 = new messenger1('messenger1');
 
 
  /**
