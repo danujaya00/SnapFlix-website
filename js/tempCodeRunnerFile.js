@@ -1,1 +1,0 @@
-/ Activate Bootstrap scrollspy on the main nav elemen
