@@ -1,4 +1,58 @@
- window.addEventListener('DOMContentLoaded', event => {
+//mobile menu
+const menuBtn = document.querySelector('.navbar-toggler');
+const menu = document.querySelector('.navbar-collapse');
+const menuLinks = document.querySelectorAll('.navbar-collapse .nav-link');
+const menuIcon = document.querySelector('.menu');
+const closeIcon = document.querySelector('.close'); 
+
+menuBtn.addEventListener('click', () => {
+   if (menu.classList.contains('collapse')) {
+       menu.classList.remove('collapse');
+   } else {
+       menu.classList.add('collapse');
+   }
+   if (menuIcon.classList.contains('d-none')) {
+       menuIcon.classList.remove('d-none');
+   } else {
+       menuIcon.classList.add('d-none');
+   }
+   if (closeIcon.classList.contains('d-none')) {
+       closeIcon.classList.remove('d-none');
+   } else {
+       closeIcon.classList.add('d-none');
+   }
+
+   //  menu.classList.toggle('collapse');
+   //  menuIcon.classList.toggle('d-none');
+   //  closeIcon.classList.toggle('d-none');
+    
+});
+
+menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        menu.classList.remove('collapse');
+
+        if (menuIcon.classList.contains('d-none')) {
+           menuIcon.classList.remove('d-none');
+       } else {
+           menuIcon.classList.add('d-none');
+       }
+       if (closeIcon.classList.contains('d-none')) {
+           closeIcon.classList.remove('d-none');
+       } else {
+           closeIcon.classList.add('d-none');
+       }
+       //  menuIcon.classList.toggle('d-none');
+       //  closeIcon.classList.toggle('d-none');
+    });
+});
+
+window.addEventListener('DOMContentLoaded', event => {
+
+    
+
+
+
 
      // Navbar shrink function
      let navbarShrink = function () {
@@ -23,57 +77,7 @@
      // Shrink the navbar when page is scrolled
      document.addEventListener('scroll', navbarShrink);
 
-     //mobile menu
-     const menuBtn = document.querySelector('.navbar-toggler');
-     const menu = document.querySelector('.navbar-collapse');
-     const menuLinks = document.querySelectorAll('.navbar-collapse .nav-link');
-     const menuIcon = document.querySelector('.menu');
-     const closeIcon = document.querySelector('.close'); 
-
-     menuBtn.addEventListener('click', () => {
-        if (menu.classList.contains('collapse')) {
-            menu.classList.remove('collapse');
-        } else {
-            menu.classList.add('collapse');
-        }
-        if (menuIcon.classList.contains('d-none')) {
-            menuIcon.classList.remove('d-none');
-        } else {
-            menuIcon.classList.add('d-none');
-        }
-        if (closeIcon.classList.contains('d-none')) {
-            closeIcon.classList.remove('d-none');
-        } else {
-            closeIcon.classList.add('d-none');
-        }
-
-        //  menu.classList.toggle('collapse');
-        //  menuIcon.classList.toggle('d-none');
-        //  closeIcon.classList.toggle('d-none');
-         
-     });
-
-     menuLinks.forEach(link => {
-         link.addEventListener('click', () => {
-             menu.classList.remove('collapse');
-
-             if (menuIcon.classList.contains('d-none')) {
-                menuIcon.classList.remove('d-none');
-            } else {
-                menuIcon.classList.add('d-none');
-            }
-            if (closeIcon.classList.contains('d-none')) {
-                closeIcon.classList.remove('d-none');
-            } else {
-                closeIcon.classList.add('d-none');
-            }
-            //  menuIcon.classList.toggle('d-none');
-            //  closeIcon.classList.toggle('d-none');
-         });
-     });
-
-
-
+     
 
 
 
