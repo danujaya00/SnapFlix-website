@@ -51,6 +51,18 @@ for (let i = 0; i < menuLinks.length; i++) {
     });
 }
 
+const video = document.getElementById("video");
+const playButton = document.querySelector('body');
+
+const playVideo = () => {
+  video.play();
+  playButton.removeEventListener("click", playVideo);
+};
+
+playButton.addEventListener("click", playVideo);
+
+
+
 window.addEventListener('DOMContentLoaded', event => {
 
 
