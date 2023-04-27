@@ -34,17 +34,34 @@
     }
 
 
-    #parallax {
+    #parallax,
+    #parallax1,
+    #parallax2,
+    .darken {
       height: 100vh;
       width: 100vw;
-      background: linear-gradient(to bottom,
-          rgba(0, 0, 0, 0.3) 0%,
-          rgba(0, 0, 0, 0.7) 75%,
-          #000 100%),
-        url('./assets/img/1.webp'), url('./assets/img/2.webp'), url('./assets/img/3.webp');
       background-repeat: no-repeat;
-      background-position: 50% 50%, 50% 50%, 50% 50%;
+      background-position: 50% 50%;
       background-attachment: fixed;
+    }
+
+    .darken {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #parallax {
+      background:
+        url('./assets/img/3.webp');
+    }
+
+    #parallax1 {
+      background:
+        url('./assets/img/2.webp');
+    }
+
+    #parallax2 {
+      background:
+        url('./assets/img/1.webp');
     }
   </style>
 
@@ -67,13 +84,13 @@
   <!-- Navigation-->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="mainNav">
     <div class="container-fluid px-0">
-      <a class="navbar-brand" href="#page-top"><img src="./assets/sfx/SnapFlix.svg" class="navbar-logo d-none" alt=""
+      <a class="navbar-brand" href="#page-top"><img src="./assets/sfx/SnapFlix.svg" class="navbar-logo transparent" alt=""
           id="navbarLogo" /></a>
       <button id="navbarToggler" class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">
 
-        <svg id="menu" class="menu " width="40px" height="40px" viewBox="0 0 24 24" fill="none"
+        <!-- <svg id="menu" class="menu " width="40px" height="40px" viewBox="0 0 24 24" fill="none"
           xmlns="http://www.w3.org/2000/svg">
           <path class="animate" d="M5 8H13.75M5 12H19M10.25 16L19 16" stroke="#fff" stroke-linecap="round"
             stroke-linejoin="round" />
@@ -81,7 +98,16 @@
         <svg id="close" class="close d-none" width="40px" height="40px" viewBox="0 0 24 24" fill="none"
           xmlns="http://www.w3.org/2000/svg">
           <path class="animate" d="M5 5L19 19M5 19L19 5" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" />
-        </svg>
+        </svg> -->
+
+        <div id="nav-icon2">
+          <span class=' icon-top'></span>
+          <span class=' icon-top'></span>
+          <span class=' icon-middle'></span>
+          <span class=' icon-middle'></span>
+          <span class=' icon-lower'></span>
+          <span class=' icon-lower'></span>
+        </div>
       </button>
       <div class="collapse navbar-collapse px-4" id="navbarResponsive">
         <ul class="navbar-nav ms-auto">
@@ -106,25 +132,34 @@
   </nav>
   <!-- Masthead-->
   <header class="masthead" id="parallax">
-    <div class="container px-0 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-      <div class="d-flex justify-content-center">
-        <div class="text-center">
-          <img width="250" height="75" src="./assets/sfx/SnapFlix.svg" class="hero-logo" alt="" srcset="" />
-          <br />
+    <div id="parallax1">
+      <div id="parallax2">
+        <div class="darken">
+          <div class="container px-0 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+            <div class="d-flex justify-content-center">
+              <div class="text-center">
+                <img width="250" height="75" src="./assets/sfx/SnapFlix.svg" class="hero-logo" alt="" srcset="" />
+                <br />
 
-          <h1 class="d-none">SNAP FLIX</h1>
+                <h1 class="d-none">SNAP FLIX</h1>
 
-          <span id="messenger1" class="text-white mb-4 fs-2 ">WELCOME TO</span>
-          <div class="container  vh-30 d-flex justify-content-center align-middle align-items-center">
-            <div class="row">
-              <div class="col-12 "> 
-                  <div id="flipdown" class="flipdown flipdown__theme-light"></div> 
+                <h2 id="messenger1" class="text-white mt-4 mb-4 fs-4 ">WELCOME TO</h2>
+                <div class="container-fluid vh-30 d-flex justify-content-center align-middle align-items-center"
+                  data-aos="fade-up">
+                  <div class="row-fluid">
+                    <div class="col-12 mh-100">
+                      <div class="countDown align-content-center">
+                        <div id="flipdown" class="flipdown flipdown__theme-light"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <a class="btn btn-outline-light btn-hero" href="#about">Lights
+                  Camera Action!</a>
               </div>
             </div>
           </div>
-
-          <a class="btn btn-outline-light btn-hero" href="#about">Lights
-            Camera Action!</a>
         </div>
       </div>
     </div>
@@ -134,8 +169,9 @@
   <section id="about">
     <div class="aboutvideo overflow-hidden">
 
-      <video id="video" autoplay muted loop controls playsinline class="lozad pe-none">
+      <video id="video" autoplay muted loop playsinline class="lozad pe-none">
         <source src="./assets/sfx/snapflix.webm" type="video/webm" />
+        <source src="./assets/sfx/snapflix.mp4" type="video/mp4" />
       </video>
       <div class="overlay"></div>
       <div class="aboutcontent">
@@ -1176,7 +1212,7 @@
   </section>
 
 
-  
+
   <!-- Bootstrap core JS-->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->

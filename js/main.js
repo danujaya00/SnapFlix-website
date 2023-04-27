@@ -5,8 +5,7 @@ const menu = document.getElementById('navbarResponsive');
 const menuLinks = document.getElementsByClassName('nav-link');
 // const menuIcon = document.querySelector('.menu');
 // const closeIcon = document.querySelector('.close'); 
-const menuIcon = document.getElementById('menu');
-const closeIcon = document.getElementById('close');
+const menuIcon = document.getElementById("nav-icon2"); 
 
 menuBtn.addEventListener('click', () => {
     if (menu.classList.contains('collapse')) {
@@ -14,22 +13,20 @@ menuBtn.addEventListener('click', () => {
     } else {
         menu.classList.add('collapse');
     }
-    if (menuIcon.classList.contains('d-none')) {
-        menuIcon.classList.remove('d-none');
+    if (menuIcon.classList.contains('open')) {
+        menuIcon.classList.remove('open');
     } else {
-        menuIcon.classList.add('d-none');
-    }
-    if (closeIcon.classList.contains('d-none')) {
-        closeIcon.classList.remove('d-none');
-    } else {
-        closeIcon.classList.add('d-none');
-    }
+        menuIcon.classList.add('open');
+    } 
 
     //  menu.classList.toggle('collapse');
     //  menuIcon.classList.toggle('d-none');
     //  closeIcon.classList.toggle('d-none');
 
 });
+ 
+
+      
 
 // menuLinks.forEach(link => {
 for (let i = 0; i < menuLinks.length; i++) {
@@ -55,8 +52,8 @@ const video = document.getElementById("video");
 const playButton = document.querySelector('body');
 
 const playVideo = () => {
-  video.play();
-  playButton.removeEventListener("click", playVideo);
+    video.play();
+    playButton.removeEventListener("click", playVideo);
 };
 
 playButton.addEventListener("click", playVideo);
@@ -80,10 +77,10 @@ window.addEventListener('DOMContentLoaded', event => {
         }
         if (window.scrollY <= 50) {
             navbarCollapsible.classList.remove('navbar-shrink');
-            navbarLogo.classList.add('d-none');
+            navbarLogo.classList.add('transparent');
         } else {
             navbarCollapsible.classList.add('navbar-shrink');
-            navbarLogo.classList.remove('d-none');
+            navbarLogo.classList.remove('transparent');
         }
     };
 
@@ -118,6 +115,9 @@ window.addEventListener('DOMContentLoaded', event => {
     // Add event listener
     document.addEventListener("mousemove", parallax);
     const elem = document.querySelector("#parallax");
+    const elem1 = document.querySelector("#parallax1");
+    const elem2 = document.querySelector("#parallax2");
+
     // Magic happens here
     function parallax(e) {
         let _w = window.innerWidth / 2;
@@ -125,7 +125,7 @@ window.addEventListener('DOMContentLoaded', event => {
         let _mouseX = e.clientX;
         let _mouseY = e.clientY;
         let _depth1 = `${50 - (_mouseX - _w) * 0.03}% ${
-        50 - (_mouseY - _h) * 0.01
+        50 - (_mouseY - _h) * 0.03
       }%`;
         let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${
         50 - (_mouseY - _h) * 0.02
@@ -133,8 +133,11 @@ window.addEventListener('DOMContentLoaded', event => {
         let _depth3 = `${50 - (_mouseX - _w) * 0.01}% ${
         50 - (_mouseY - _h) * 0.01
       }%`;
-        let x = `${_depth3}, ${_depth2}, ${_depth1}`;
-        elem.style.backgroundPosition = x;
+        // let x = `${_depth3}, ${_depth2}, ${_depth1}`;
+        // elem.style.backgroundPosition = x;
+        elem.style.backgroundPosition = _depth1;
+        elem1.style.backgroundPosition = _depth2;
+        elem2.style.backgroundPosition = _depth3;
     }
 })();
 
@@ -146,32 +149,42 @@ function parallaxScroll() {
     // move background Position vertically when scroll for 3 layers
     let scrolled = window.pageYOffset;
     const parallax = document.querySelector("#parallax");
-    //scroll parallax from current mouse position
+    const parallax1 = document.querySelector("#parallax1");
+    const parallax2 = document.querySelector("#parallax2");
+    //scroll parallax from current mouse position 
     if (parallax.style.backgroundPosition == "") {
-        parallax.style.backgroundPosition = "50% 50%, 50% 50%, 50% 50%";
+        parallax.style.backgroundPosition = "50% 50%";
+    }
+    if (parallax1.style.backgroundPosition == "") {
+        parallax1.style.backgroundPosition = "50% 50%";
+    }
+    if (parallax2.style.backgroundPosition == "") {
+        parallax2.style.backgroundPosition = "50% 50%";
     }
     // console.log(parallax.style.backgroundPosition);
 
-    // get current background position of parallax
-    let curpos = parallax.style.backgroundPosition.split(", ");
-    let curpos1 = curpos[0].split(" ");
-    let curpos2 = curpos[1].split(" ");
-    let curpos3 = curpos[2].split(" ");
+     
     // console.log(curpos); 
     // console.log(curpos1, curpos2, curpos3);
     // let curpos2 = parallax.style.backgroundPosition.split(" ");
     // let curpos3 = parallax.style.backgroundPosition.split(" ");
 
-    let _scroll1 = curpos1[0] + " " + (50 - scrolled * 0.06) + "%";
-    let _scroll2 = curpos2[0] + " " + (50 - scrolled * 0.04) + "%";
-    let _scroll3 = curpos3[0] + " " + (50 - scrolled * 0.02) + "%";
+    let curpos1 = parallax.style.backgroundPosition.split(" ");
+    let curpos2 = parallax1.style.backgroundPosition.split(" ");
+    let curpos3 = parallax2.style.backgroundPosition.split(" ");
+
+    let _scroll1 = curpos1[0] + " " + (50 - scrolled * 0.09) + "%";
+    let _scroll2 = curpos2[0] + " " + (50 - scrolled * 0.06) + "%";
+    let _scroll3 = curpos3[0] + " " + (50 - scrolled * 0.03) + "%";
 
     // console.log(_scroll1, _scroll2, _scroll3);
 
 
 
-    let x = `${_scroll1}, ${_scroll2}, ${_scroll3}`;
-    parallax.style.backgroundPosition = x;
+    // let x = `${_scroll1}, ${_scroll2}, ${_scroll3}`;
+    parallax.style.backgroundPosition = _scroll1;
+    parallax1.style.backgroundPosition = _scroll2;
+    parallax2.style.backgroundPosition = _scroll3
 }
 
 
